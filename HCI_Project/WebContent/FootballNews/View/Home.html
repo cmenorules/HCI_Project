@@ -10,6 +10,7 @@
 <script src="../../Resources/lib/jquery-2.1.4.min.js"></script>
 <script src="../../Resources/bootstrap/js/bootstrap.js"></script>
 <link href="css/menu.css" rel="stylesheet">
+<link href="css/home_items.css" rel="stylesheet">
 <style>
 /* Note: Try to remove the following lines to see the effect of CSS positioning */
 .affix {
@@ -17,8 +18,8 @@
 	width: 70%;
 }
 
-.affix+.container-fluid {
-	padding-top: 70px;
+.affix+.container {
+	padding-top: 82px;
 }
 </style>
 </head>
@@ -27,43 +28,176 @@
 	<div class="container">
 
 		<div class="row">
-			<div class="col-sm-1 col-xs-1 col-md-1 col-lg-1" style="background-color: lavender;">.col-sm-4</div>
+			<div class="col-sm-1 col-xs-1 col-md-1 col-lg-1"
+				style="background-color: lavender;"></div>
 			<div class="col-sm-10 col-xs-10 col-md-10 col-lg-10">
 				<img alt="HIHIHIH" src="img/logo.png">
 				<div class="menu_border">
-					<nav class="nav nav-tabs menu" data-spy="affix"
-						data-offset-top="197">
-						<ul class="nav navbar-nav">
-							<li><a href="#">Trang chủ</a></li>
-							<li><a href="#">Giải đấu</a></li>
-							<li><a href="#">Lịch đấu - Kết quả</a></li>
-							<li><a href="#">Bảng xếp hạng</a></li>
-							<li><a href="#">Chuyển nhượng</a></li>
-							<li><a href="#">Trực tiếp</a></li>
-							<li><a href="#">Video</a></li>
-							<li><a href="#">Troll</a></li>
-						</ul>
+
+
+
+					<nav class="navbar nav-tabs" data-spy="affix" data-offset-top="82">
+						<div class="navbar-header menu_mini">
+							<button type="button" class="navbar-toggle"
+								data-toggle="collapse" data-target="#myNavbar">
+								<span class="icon-bar menu_button"></span> <span
+									class="icon-bar menu_button"></span> <span
+									class="icon-bar menu_button"></span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse menu" id="myNavbar">
+							<ul class="nav navbar-nav">
+								<li><a href="#">Trang chủ</a></li>
+
+
+
+								<li class="dropdown"><a class="dropdown-toggle"
+									data-toggle="dropdown" href="#">Giải đấu <span
+										class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li class="li_large"><div class="alert alert-success">
+												<strong>Success!</strong> Indicates a successful or positive
+												action.
+											</div></li>
+										<li><a href="#">La Liga BBVA</a></li>
+										<li><a href="#">Premier League</a></li>
+										<li><a href="#">Bundesliga</a></li>
+										<li><a href="#">Seri A</a></li>
+										<li><a href="#">Ligue 1</a></li>
+										<li><a href="#">Cúp C1 Châu Âu</a></li>
+										<li><a href="#">Ngoại Hạng Anh</a></li>
+										<li><a href="#">Champion League</a></li>
+										<li><a href="#">Europa League</a></li>
+										<li><a href="#">La Liga</a></li>
+
+									</ul></li>
+
+
+
+								<li><a href="#">Lịch đấu - Kết quả</a></li>
+								<li><a href="#">Bảng xếp hạng</a></li>
+								<li><a href="#">Chuyển nhượng</a></li>
+								<li><a href="#">Trực tiếp</a></li>
+								<li><a href="#">Video</a></li>
+								<li><a href="#">Troll</a></li>
+							</ul>
+						</div>
+
 					</nav>
 				</div>
-				<div style="height: 1000px">
-					<h1>Some text to enable scrolling</h1>
-					<h1>Some text to enable scrolling</h1>
-					<h1>Some text to enable scrolling</h1>
-					<h1>Some text to enable scrolling</h1>
-					<h1>Some text to enable scrolling</h1>
-					<h1>Some text to enable scrolling</h1>
-					<h1>Some text to enable scrolling</h1>
-					<h1>Some text to enable scrolling</h1>
-					<h1>Some text to enable scrolling</h1>
-					<h1>Some text to enable scrolling</h1>
-					<h1>Some text to enable scrolling</h1>
+				<div class="item_container">
+					<div class="item_title">
+						<h3>TIN NÓNG</h3>
+					</div>
+					<div class="item_content">
+						<table style="width: 100%" cellspacing="0" cellpadding="0">
+							<tr>
+								<td rowspan="3" width="50%"><img alt="TEST"
+									src="img/h1.jpg" width="100%"><br> <a><h3>Real
+											vỡ mộng khi gặp U20 Bà Rịa Vũng Tàu</h3></a></td>
+								<td height="30%" width="25%"><img alt="TEST" class="img_20"
+									src="img/h1.jpg"></td>
+								<td width="25%"><a> Ngọc Hải không có tên trong danh
+										sách triệu tập U23 VN </a></td>
+							</tr>
+							<tr>
+								<td><img alt="TEST" class="img_20" src="img/h1.jpg"></td>
+								<td><a>HLV Miura công bố danh sách 29 cầu thủ U23 Việt
+										Nam </a></td>
+							</tr>
+							<tr>
+								<td><img alt="TEST" class="img_20" src="img/h1.jpg"></td>
+								<td><a>HLV Miura công bố danh sách 29 cầu thủ U23 Việt
+										Nam </a></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td class="read_more"><a>Xem thêm >></a></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="item_container">
+					<div class="item_title">
+						<h3>THỊ TRƯỜNG CHUYỂN NHƯỢNG</h3>
+					</div>
+					<div class="item_content">
+						<table style="width: 100%" cellspacing="1" cellpadding="0">
+							<tr>
+								<td rowspan="3" width="50%"><img alt="TEST"
+									src="img/h1.jpg" height="110%" width="100%"><br> <a><h3>Bầu
+											Đức mua Luan thay vì Ronadol</h3></a></td>
+								<td height="30%" width="20%"><img alt="TEST" class="img_20"
+									src="img/h1.jpg"><br> <a class = "table_content">HLV Miura công bố danh
+										sách 29 cầu thủ U23 Việt Nam </a></td>
+								<td height="30%" width="20%"><img alt="TEST" class="img_20"
+									src="img/h1.jpg"><br> <a class = "table_content">HLV Miura công bố danh
+										sách 29 cầu thủ U23 Việt Nam </a></td>										
+
+							</tr>
+							<tr>								
+								<td><img alt="TEST" class="img_20" src="img/h1.jpg"><br>
+									<a class = "table_content">HLV Miura công bố danh sách 2d9 cầu thủ U23 Việt Nam </a></td>
+								<td><img alt="TEST" class="img_20"
+									src="img/h1.jpg"><br> <a class = "table_content">HLV Miura công bố danh
+										sách 21 cầu thủ U23 Việt Nam </a></td>
+							</tr>
+
+							<tr>
+								<td></td>
+								<td></td>
+								<td class="read_more"><a>Xem thêm >></a></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="item_container">
+					<div class="item_title">
+						<h3>VIDEO</h3>
+					</div>
+					<div class="item_content">
+						<table style="width: 100%" cellspacing="0" cellpadding="0">
+							<tr>
+								<td><img alt="TEST" class="img_20" src="img/h1.jpg"><br>
+									<a>Bầu đức từ chối mua clb real</a></td>
+								<td><img alt="TEST" class="img_20" src="img/h1.jpg"><br>
+									<a>Bầu đức từ chối mua clb real</a></td>
+								<td><img alt="TEST" class="img_20" src="img/h1.jpg"><br>
+									<a>Bầu đức từ chối mua clb real</a></td>
+								<td><img alt="TEST" class="img_20" src="img/h1.jpg"><br>
+									<a>Bầu đức từ chối mua clb real</a></td>
+
+							</tr>
+							<tr>
+								<td><img alt="TEST" class="img_20" src="img/h1.jpg"><br>
+									<a>Bầu đức từ chối mua clb real</a></td>
+								<td><img alt="TEST" class="img_20" src="img/h1.jpg"><br>
+									<a>Bầu đức từ chối mua clb real</a></td>
+								<td><img alt="TEST" class="img_20" src="img/h1.jpg"><br>
+									<a>Bầu đức từ chối mua clb real</a></td>
+								<td><img alt="TEST" class="img_20" src="img/h1.jpg"><br>
+									<a>Bầu đức từ chối mua clb real</a></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td class="read_more"><a>Xem thêm >></a></td>
+							</tr>
+						</table>
+					</div>
 				</div>
 
 
-				<footer>
 
-
-					<h1>This is footer</h1>
+				<footer class="footer_style">
+					<center>
+						<p>
+							Bản quyền thuộc về công ty TNHH giải trí truyền thông đa phương
+							tiện Viet media <br> Liên hệ: 09009090909909
+						</p>
+					</center>
 
 				</footer>
 
@@ -73,7 +207,8 @@
 
 
 
-			<div class="col-sm-1 col-xs-1 col-md-1 col-lg-1" style="background-color: lavender;">.col-sm-4</div>
+			<div class="col-sm-1 col-xs-1 col-md-1 col-lg-1"
+				style="background-color: lavender;"></div>
 		</div>
 	</div>
 
