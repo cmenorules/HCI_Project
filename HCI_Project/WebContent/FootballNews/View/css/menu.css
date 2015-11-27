@@ -14,6 +14,14 @@
 	width: 100%;	
 }
 
+@media (min-width: 768px){
+    .affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:2;    
+}
+
 .web_name
 {
 	margin-right: 60px;
