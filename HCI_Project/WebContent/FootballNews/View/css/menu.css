@@ -60,3 +60,11 @@
 	width: 300px;
 	height: auto;
 }
+
+.footer_style {
+	margin-top: 10px;
+	height: 80px;
+	width: 100%;
+	background-color: rgb(240, 240, 241);
+	padding: 20px;
+}
