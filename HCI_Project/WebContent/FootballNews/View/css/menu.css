@@ -57,8 +57,12 @@
 
 .li_large
 {
-	width: 300px;
-	height: auto;
+	width:700px;
+	height: auto;	
+}
+.li_large a
+{
+	color: black;
 }
 
 .footer_style {
@@ -67,4 +71,10 @@
 	width: 100%;
 	background-color: rgb(240, 240, 241);
 	padding: 20px;
+}
+
+.li_div_giai_dau
+{
+	
+
 }
