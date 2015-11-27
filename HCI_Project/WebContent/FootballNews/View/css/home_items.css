@@ -27,9 +27,17 @@
 }
 
 .img_20 {
-	margin-left: 10px;
+	
 	width: 90%;
 	height: 90px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.img_20_150 {
+	
+	width: 90%;
+	height: 170px;
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
