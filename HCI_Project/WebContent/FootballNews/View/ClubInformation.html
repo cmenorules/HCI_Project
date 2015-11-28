@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Thông tin đội bóng - E-Football</title>
+<link href="../../Resources/bootstrap/css/bootstrap.min.css"
+	rel="stylesheet">
+<script src="../../Resources/lib/jquery-2.1.4.min.js"></script>
+<script src="../../Resources/bootstrap/js/bootstrap.js"></script>
+<script src="js/transfers.js"></script>
+<link href="css/menu.css" rel="stylesheet">
+<link href="css/home_items.css" rel="stylesheet">
+<link href="css/club-info.css" rel="stylesheet">
+<style>
+/* Note: Try to remove the following lines to see the effect of CSS positioning */
+.affix {
+	top: 0;
+	width: 85%;
+	z-index: 40000000000000;
+}
+
+@media ( max-width : 768px) {
+.affix {
+	width: 93%;
+	z-index: 40000000000000;
+}
+}
+.affix+.container {
+	padding-top: 82px;
+}
+</style>
+</head>
+<body>
+<div class="container"> <img alt="HIHIHIH" src="img/logo.png">
+	<div class="menu_border">
+		<nav class="navbar nav-tabs" data-spy="affix" data-offset-top="82">
+			<div class="navbar-header menu_mini">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+						data-target="#myNavbar"> <span class="icon-bar menu_button"
+							style="background-color: black;"></span> <span
+							class="icon-bar menu_button" style="background-color: black;"></span> <span class="icon-bar menu_button"
+							style="background-color: black;"></span> </button>
+			</div>
+			<div class="collapse navbar-collapse menu" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="#">Trang chủ</a></li>
+					<li class="dropdown"><a class="dropdown-toggle"
+							data-toggle="dropdown" href="#">Giải đấu <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li class="li_large">
+								<div class="li_div_giai_dau">
+									<table border="0" style="width: 100%">
+										<tr>
+											<td rowspan="9" width="2%"></td>
+											<td class="giai_dau" width="20%"><a href="#">La
+												Liga BBVA</a></td>
+											<td rowspan="3" width="2%"></td>
+											<td rowspan="3" width="10%"><img alt="test"
+													width="100%" height="100%" src="img/q1.png"></td>
+											<td rowspan="9" width="2%"></td>
+											<td class="giai_dau" rowspan="3"><a href="#">Liverpool
+												lập kỷ lục 10 năm vô địch liên tiếp</a></td>
+										</tr>
+										<tr>
+											<td class="giai_dau"><a href="#">Premier League</a></td>
+										</tr>
+										<tr>
+											<td class="giai_dau"><a href="#">Bundesliga</a></td>
+										</tr>
+										<tr>
+											<td class="giai_dau"><a href="#">Seri A</a></td>
+											<td rowspan="3" width="2%"></td>
+											<td rowspan="3"><img alt="test" width="100%"
+													height="100%" src="img/q2.png"></td>
+											<td class="giai_dau" rowspan="3"><a href="#">MU
+												thất thủ trước Sông Lam Nghệ An</a></td>
+										</tr>
+										<tr>
+											<td class="giai_dau"><a href="#">Ligue 1</a></td>
+										</tr>
+										<tr>
+											<td class="giai_dau"><a href="#">Cúp C1 Châu Âu</a></td>
+										</tr>
+										<tr>
+											<td class="giai_dau"><a href="#">Ngoại Hạng Anh</a></td>
+											<td rowspan="3" width="2%"></td>
+											<td rowspan="3"><img alt="test" width="100%"
+													height="100%" src="img/q3.png"></td>
+											<td class="giai_dau" rowspan="3"><a href="#">Đội
+												tuyển đông ti mo giữ vững ngôi vương. Real cay cú</a></td>
+										</tr>
+										<tr>
+											<td class="giai_dau"><a href="#">Champion League</a></td>
+										</tr>
+										<tr>
+											<td class="giai_dau"><a href="#">Europa League</a></td>
+										</tr>
+									</table>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#">Lịch đấu - Kết quả</a></li>
+					<li><a href="#">Bảng xếp hạng</a></li>
+					<li class="dropdown"><a class="dropdown-toggle"
+							data-toggle="dropdown" href="#">Chuyển nhượng <span
+								class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="/Transfers">Tin chuyển nhượng</a></li>
+							<li><a href="#">Danh sách chuyển nhượng</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Trực tiếp</a></li>
+					<li><a href="#">Video</a></li>
+					<li><a href="#">Troll</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<!-- start body -->
+	<div class="row">
+		<div class="col-md-2">
+			<h3> GIẢI ĐẤU </h3>
+			<div class="list-group"> <a class="list-group-item" href="#">Premier League</a> <a class="list-group-item" href="#">La Liga</a> <a class="list-group-item" href="#">Serie A</a> <a class="list-group-item" href="#">Bundesliga</a> <a class="list-group-item" href="#">Ligue 1</a> <a class="list-group-item" href="#">Việt Nam</a> </div>
+		</div>
+		<div class="col-md-7">
+			<div class="list_club">
+				<table class="table table-hover">
+					<thead>
+					
+						<th colspan="5"> <center>
+								<h3> DANH SÁCH ĐỘI BÓNG </h3>
+							</center>
+						</th>
+					<tr>
+						<th width="10%">TT</th>
+						<th width="30%">Tên đội</th>
+						<th width="20%">Logo</th>
+						<th width="20%">Tên viết tắt</th>
+						<th width="20%">Ngày thành lập</th>
+					</tr>
+						</thead>
+					
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td><a href="#">Manchester United</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/man-united.png" width="30" height="30"></td>
+							<td>MU, Quỷ đỏ</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td><a href="#">Manchester City</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/man-city.png" width="30" height="30"></td>
+							<td>MC</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td><a href="#">Arsenal</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/arsenal.png" width="30" height="30"></td>
+							<td>Pháo thủ thành London</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td><a href="#">Chelsea</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/chelsea.png" width="30" height="30"></td>
+							<td>Chelsea</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td><a href="#">Stoke City</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/stoke.png" width="30" height="30"></td>
+							<td>Stoke</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td><a href="#">Manchester United</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/man-united.png" width="30" height="30"></td>
+							<td>MU, Quỷ đỏ</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td><a href="#" >Manchester City</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/man-city.png" width="30" height="30"></td>
+							<td>MC</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td><a href="#">Arsenal</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/arsenal.png" width="30" height="30"></td>
+							<td>Pháo thủ thành London</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td><a href="#" >Chelsea</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/chelsea.png" width="30" height="30"></td>
+							<td>Chelsea</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td><a href="#" >Stoke City</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/stoke.png" width="30" height="30"></td>
+							<td>Stoke</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td><a href="#" >Manchester United</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/man-united.png" width="30" height="30"></td>
+							<td>MU, Quỷ đỏ</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td><a href="#" >Manchester City</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/man-city.png" width="30" height="30"></td>
+							<td>MC</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td><a href="#" >Arsenal</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/arsenal.png" width="30" height="30"></td>
+							<td>Pháo thủ thành London</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td><a href="#" >Chelsea</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/chelsea.png" width="30" height="30"></td>
+							<td>Chelsea</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td><a href="#" >Stoke City</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/stoke.png" width="30" height="30"></td>
+							<td>Stoke</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td><a href="#" >Manchester United</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/man-united.png" width="30" height="30"></td>
+							<td>MU, Quỷ đỏ</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td><a href="#" >Manchester City</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/man-city.png" width="30" height="30"></td>
+							<td>MC</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td><a href="#" >Arsenal</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/arsenal.png" width="30" height="30"></td>
+							<td>Pháo thủ thành London</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td><a href="#">Chelsea</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/chelsea.png" width="30" height="30"></td>
+							<td>Chelsea</td>
+							<td>1-1-1899</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td><a href="#" >Stoke City</a></td>
+							<td><img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/stoke.png" width="30" height="30"></td>
+							<td>Stoke</td>
+							<td>1-1-1899</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="club_detail"> <a data-toggle = "tooltip" title="Quay lại" class="back_to_list" href="#"><span style="font-size:15pt" class="glyphicon glyphicon-arrow-left pull-left"></span> </a>
+				<table class="table table-hover ">
+					<thead>
+						<th colspan="7"><center>
+								<h3> THÔNG TIN ĐỘI BÓNG </h3>
+							</center></th>
+							</thead>
+					<tbody>
+						<tr>
+							<td colspan="3" style="margin:0 auto"><center>
+									<img src="http://tyso.bongda.com.vn/images/flags/PremierLeague/man-united.png" width="180" height="180">
+								</center></td>
+							<td colspan="4"><h3>Manchester United</h3>
+								<p><b> Quốc gia: </b>Anh</p>
+								<p><b> Sân vận động: </b>Old Trafford</p>
+								<p><b> Thành lập: </b>20-10-1899</p>
+								<b> Thành tích: </b>
+								<ul>
+									<li> Cúp FA: 10 vô địch </li>
+									<li> Cúp Champion league: 10 vô địch </li>
+									<li> Cúp Preamer leage: 10 vô địch </li>
+									<li> Cúp FA: 10 vô địch </li>
+									<li> Cúp Europa League: 10 vô địch </li>
+								</ul></td>
+						</tr>
+					</tbody>
+					<thead>
+					
+						<th colspan="7"> <center>
+								<h3> DANH SÁCH CẦU THỦ </h3>
+							</center>
+						</th>
+					<tr>
+						<th width="9%"> Vị trí</th>
+						<th width="9%"> Số áo</th>
+						<th width="28%"> Tên</th>
+						<th width="15%"> Quốc tịch</th>
+						<th width="15%"> Ngày sinh</th>
+						<th width="10%"> Chuyển nhượng <br>
+							<i style="font-size:9px"> (Triệu euro)</i></th>
+						<th width="15%"> Gia nhập</th>
+					</tr>
+						</thead>
+					
+					<tbody>
+						<tr>
+							<td> LW </td>
+							<td> 7 </td>
+							<td><a class="player" href="#">Cristiano Ronaldo</a></td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 9 </td>
+							<td> Luis Súares</td>
+							<td> Uruguay</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+						<tr>
+							<td> ST </td>
+							<td> 7 </td>
+							<td> Cristiano Ronaldo</td>
+							<td> BĐN</td>
+							<td> 2-1-1896</td>
+							<td> 100 </td>
+							<td> 1-1-2005</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="player_detail"> <a data-toggle = "tooltip" title="Quay lại" class="back_to_club" href="#"><span style="font-size:15pt" class="glyphicon glyphicon-arrow-left pull-left"></span> </a>
+				<table class="table table-hover ">
+					<thead>
+					<th colspan="7"> <center>
+								<h3> THÔNG TIN CẦU THỦ </h3>
+							</center>
+						</th>
+							</thead>
+					<tbody>
+						<tr>
+							<td colspan="3" style="margin:0 auto"><center>
+									<img src="http://i.dailymail.co.uk/i/pix/2014/09/04/1409844104597_Image_galleryImage_Cristiano_Ronaldo_of_Real.JPG" class="img-responsive">
+								</center></td>
+							<td colspan="4"><h3>Cristiano Ronaldo</h3>
+								<p><b> Tên đầy đủ: </b>Cristiano Ronaldo dos Santos Aveiro</p>
+								<p><b> Quốc tịch: </b>Bồ Đào Nha</p>
+								<p><b> Ngày sinh: </b>20-10-1899</p>
+								<p><b> Vị trí sở trường: </b>Tiền đạo cánh trái</p>
+								<p><b> Giá trị chuyển nhượng: </b>100 triệu euro</p>
+								<b> Câu lạc bộ: </b>
+								<ul>
+									<li> Sporting Lisbon: Mùa giải 2002-03, 0 danh hiệu </li>
+									<li> Manchester United: Mùa giải 2003-2009, 10 danh hiệu</li>
+									<li> Real Madrid: Mùa giải 2009-nay, 9 danh hiệu </li>
+								</ul>
+								<b> Danh hiệu cùng câu lạc bộ: </b>
+								<ul>
+									<li> Cúp FA: 10 vô địch </li>
+									<li> Cúp Champion league: 3 vô địch </li>
+									<li> Cúp Preamer leage: 3 vô địch </li>
+									<li> Cúp FA: 1 vô địch </li>
+									<li> Siêu cúp Anh: 1 vô địch </li>
+									<li> Cúp thế giới các câu lạc bộ: 2 vô địch </li>
+									<li> Cúp nhà vua TBN: 1 vô địch </li>
+									<li> Cup Laliga: 3 vô địch </li>
+								</ul>
+								<b> Danh hiệu cá nhâṇ: </b>
+								<ul>
+									<li> Vua phá lưới Premier League: 3 lần </li>
+									<li> Vua phá lưới Laliga: 3 lần </li>
+									<li> Chiếc giày vàng châu Âu: 3 lần </li>
+									<li> Quả bóng vàng: 3 lần </li>
+								</ul></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="col-md-3">
+		<div class="art">
+				<div class="item_title">
+					<h3><a href="#">QC</a></h3>
+				</div>
+				<a href="#"><img alt="Không tải được hình" class="img-responsive pull-left" src="http://i.dailymail.co.uk/i/pix/2014/09/04/1409844104597_Image_galleryImage_Cristiano_Ronaldo_of_Real.JPG"></a>						
+			</div>
+		</div>
+	</div>
+	<!-- end body -->
+	<footer class="footer_style">
+		<center>
+			<p> Bản quyền thuộc về công ty TNHH giải trí truyền thông đa phương
+				tiện Viet media <br>
+				Liên hệ: 09009090909909 </p>
+		</center>
+	</footer>
+</div>
+</body>
+</html>
