@@ -1,4 +1,4 @@
-.menu {	
+.menu {
 	background: rgba(30, 150, 0,0.8);
 	font-weight: bold;
 	border-style: solid;
@@ -11,15 +11,15 @@
 .menu_mini {
 	background: rgb(227, 227, 227);
 	font-weight: bold;
-	width: 100%;	
+	width: 100%;
 }
 
 @media (min-width: 768px){
     .affix {
     position: fixed;
     top: 0;
-    width: 100%;
-    z-index:2;    
+    width: 85%;
+    z-index:300000000000;
 }
 
 .web_name
@@ -28,7 +28,7 @@
 }
 
 .menu_border {
-	
+
 }
 
 .menu a {

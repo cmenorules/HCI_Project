@@ -15,6 +15,10 @@
 	font-weight: bold;
 	font-family: "Arial", Times, serif;
 }
+.item_title h4 {
+	font-weight: bold;
+	font-family: "Arial", Times, serif;
+}
 
 .item_content {
 	margin-top: 2px;
@@ -63,7 +67,7 @@
 	margin-left: 2px;
 }
 
-.data_scroll {			
+.data_scroll {
 	overflow-y: scroll;
 	height: 250px;
 }
