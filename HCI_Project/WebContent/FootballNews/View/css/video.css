@@ -16,6 +16,7 @@
 }
 .table th, .table td {
     border: 0px !important;
+    font-weight: bold;
 
 }
 .fixed-table-container {
@@ -25,9 +26,9 @@ iframe {
     border: none;
 }
 a#change-color{
-	color: white;
+	color: black;
 }
 a#change-color:hover{
-	color: white;
+	color: black;
 
 }

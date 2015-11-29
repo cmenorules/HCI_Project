@@ -14,13 +14,7 @@
 	width: 100%;
 }
 
-@media (min-width: 768px){
-    .affix {
-    position: fixed;
-    top: 0;
-    width: 85%;
-    z-index:300000000000;
-}
+
 
 .web_name
 {
@@ -58,7 +52,7 @@
 .li_large
 {
 	width:700px;
-	height: auto;	
+	height: auto;
 }
 .li_large a
 {
@@ -75,7 +69,7 @@
 
 .li_div_giai_dau
 {
-	
+
 
 }
 /*
@@ -83,12 +77,12 @@
 	background-color: rgb(227,227,227);
 	background: rgb(227,227,227);
 	color: red;
-	
+
 }
 */
 .giai_dau
 {
-	
+
 }
 
 .giai_dau:HOVER
@@ -99,7 +93,7 @@
 }
 
 .li_div_giai_dau a:HOVER {
-	background-color: rgb(245,245,245);	
-	color: red;	
+	background-color: rgb(245,245,245);
+	color: red;
 	text-decoration: none;
 }
