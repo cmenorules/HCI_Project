@@ -1,0 +1,33 @@
+
+#video_overlays {
+	color: white;
+	position:absolute;
+	float:left;
+	margin-top: 9.5%;
+	width:27%;
+	height:12%;
+	background-color:rgba(0,0,0,0.5);
+	padding:2px 10px 2px 10px;
+	z-index:3000000;
+}
+.table {
+    border-bottom:0px !important;
+
+}
+.table th, .table td {
+    border: 0px !important;
+
+}
+.fixed-table-container {
+    border:0px !important;
+}
+iframe {
+    border: none;
+}
+a#change-color{
+	color: white;
+}
+a#change-color:hover{
+	color: white;
+
+}
