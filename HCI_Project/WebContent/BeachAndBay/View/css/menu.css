@@ -1,15 +1,15 @@
 .menu {
-	background: rgba(30, 150, 0,0.8);
+	background: rgb(52,51,153);
 	font-weight: bold;
 	border-style: solid;
-	border-color: rgba(30, 150, 0,0.8);
-	border-left-color: rgba(30, 150, 0,0.8);
-	border-right-color: rgba(30, 150, 0,0.8);
+	border-color: rgb(52,51,153);
+	border-left-color: rgb(52,51,153);
+	border-right-color: rgb(52,51,153);
 	border-top: 10px;
 }
 
 .menu_mini {
-	background: rgb(227, 227, 227);
+	background: white;
 	font-weight: bold;
 	width: 100%;
 }
@@ -26,7 +26,7 @@
 }
 
 .menu a {
-	color: black;
+	color: rgb(227, 227, 227);
 }
 
 .menu a:HOVER {
