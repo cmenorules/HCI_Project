@@ -1,0 +1,99 @@
+.menu {
+	background: rgba(30, 150, 0,0.8);
+	font-weight: bold;
+	border-style: solid;
+	border-color: rgba(30, 150, 0,0.8);
+	border-left-color: rgba(30, 150, 0,0.8);
+	border-right-color: rgba(30, 150, 0,0.8);
+	border-top: 10px;
+}
+
+.menu_mini {
+	background: rgb(227, 227, 227);
+	font-weight: bold;
+	width: 100%;
+}
+
+
+
+.web_name
+{
+	margin-right: 60px;
+}
+
+.menu_border {
+
+}
+
+.menu a {
+	color: black;
+}
+
+.menu a:HOVER {
+	color: red;
+	background-color: white;
+}
+
+.menu li:HOVER {
+	background: white;
+	background-color: white;
+}
+
+.home_content
+{
+	margin-top: 15px;
+}
+
+.menu_button
+{
+	background-color: black;
+}
+
+.li_large
+{
+	width:700px;
+	height: auto;
+}
+.li_large a
+{
+	color: black;
+}
+
+.footer_style {
+	margin-top: 10px;
+	height: 100px;
+	width: 100%;
+	background-color: rgb(240, 240, 241);
+	padding: 20px;
+}
+
+.li_div_giai_dau
+{
+
+
+}
+/*
+.li_div_giai_dau td:HOVER {
+	background-color: rgb(227,227,227);
+	background: rgb(227,227,227);
+	color: red;
+
+}
+*/
+.giai_dau
+{
+
+}
+
+.giai_dau:HOVER
+{
+	background-color: rgb(245,245,245);
+	background: rgb(245,245,245);
+	color: red;
+}
+
+.li_div_giai_dau a:HOVER {
+	background-color: rgb(245,245,245);
+	color: red;
+	text-decoration: none;
+}
