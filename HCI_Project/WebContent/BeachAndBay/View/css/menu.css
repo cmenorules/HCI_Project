@@ -5,11 +5,12 @@
 	border-color: rgb(52,51,153);
 	border-left-color: rgb(52,51,153);
 	border-right-color: rgb(52,51,153);
-	border-top: 10px;
+	border-top: 10px;	
+	
 }
 
 .menu_mini {
-	background: white;
+	background: rgb(227, 227, 227);
 	font-weight: bold;
 	width: 100%;
 }
@@ -22,11 +23,11 @@
 }
 
 .menu_border {
-
+	
 }
 
 .menu a {
-	color: rgb(227, 227, 227);
+	color: white;
 }
 
 .menu a:HOVER {
@@ -67,33 +68,3 @@
 	padding: 20px;
 }
 
-.li_div_giai_dau
-{
-
-
-}
-/*
-.li_div_giai_dau td:HOVER {
-	background-color: rgb(227,227,227);
-	background: rgb(227,227,227);
-	color: red;
-
-}
-*/
-.giai_dau
-{
-
-}
-
-.giai_dau:HOVER
-{
-	background-color: rgb(245,245,245);
-	background: rgb(245,245,245);
-	color: red;
-}
-
-.li_div_giai_dau a:HOVER {
-	background-color: rgb(245,245,245);
-	color: red;
-	text-decoration: none;
-}

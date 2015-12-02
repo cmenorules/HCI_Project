@@ -4,8 +4,7 @@
 <meta charset="utf-8">
 <title>Insert title here</title>
 
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
 <link href="../../Resources/bootstrap/css/bootstrap.min.css"
 	rel="stylesheet">
 <script src="../../Resources/lib/jquery-2.1.4.min.js"></script>
@@ -17,6 +16,7 @@
 .affix {
 	top: 0;
 	width: 85%;
+	
 	z-index: 40000000000000;
 }
 
@@ -28,76 +28,147 @@
 }
 
 .affix+.container {
-	padding-top: 82px;
+	padding-top: 165px;
 }
 </style>
 </head>
 <body>
+
 	<div class="container">
 		<img alt="HIHIHIH" width="100%" height="150px" src="img/lg.jpg">
-		<div class="menu_border">
+		<nav class="navbar nav-tabs" data-spy="affix" data-offset-top="150">
+			<div class="navbar-header menu_mini">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar menu_button" style="background-color: black;"></span>
+					<span class="icon-bar menu_button" style="background-color: black;"></span>
+					<span class="icon-bar menu_button" style="background-color: black;"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse menu" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="Home.html">Trang chủ</a></li>
+					<li><a href="Hot.html">Nổi Bật</a></li>
 
-			<nav class="navbar nav-tabs" data-spy="affix" data-offset-top="82">
-				<div class="navbar-header menu_mini">
-					<button type="button" class="navbar-toggle" data-toggle="collapse"
-						data-target="#myNavbar">
-						<span class="icon-bar menu_button"
-							style="background-color: black;"></span> <span
-							class="icon-bar menu_button" style="background-color: black;"></span>
-						<span class="icon-bar menu_button"
-							style="background-color: black;"></span>
-					</button>
-				</div>
-				<div class="collapse navbar-collapse menu" id="myNavbar">
-					<ul class="nav navbar-nav">
-						<li><a href="Home.html">Trang chủ</a></li>
-						<li><a href="Hot.html">Nổi Bật</a></li>
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="#">Biển <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="">Biển Nha Trang</a></li>
+							<li><a href="#">Biển Đà Nẵng</a></li>
+							<li><a href="#">Biển Vũng Tàu</a></li>
+							<li><a href="Bien.html">Khác</a></li>
+						</ul></li>
 
-						<li class="dropdown"><a class="dropdown-toggle"
-							data-toggle="dropdown" href="#">Biển <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="">Biển Nha Trang</a></li>
-								<li><a href="#">Biển Đà Nẵng</a></li>
-								<li><a href="#">Biển Vũng Tàu</a></li>
-								<li><a href="Bien.html">Khác</a></li>
-							</ul></li>
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="#">Vịnh <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Vịnh Hạ Long</a></li>
+							<li><a href="#">Vịnh Cam Ranh</a></li>
+							<li><a href="#">Vịnh Nha Trang</a></li>
+							<li><a href="Vinh.html">Khác</a></li>
+						</ul></li>
 
-						<li class="dropdown"><a class="dropdown-toggle"
-							data-toggle="dropdown" href="#">Vịnh <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Vịnh Hạ Long</a></li>
-								<li><a href="#">Vịnh Cam Ranh</a></li>
-								<li><a href="#">Vịnh Nha Trang</a></li>
-								<li><a href="Vinh.html">Khác</a></li>
-							</ul></li>
+					<li><a href="LeHoi.html">Sự Kiện - Lễ Hội</a></li>
+					<li><a href="DacSan.html">Đặc Sản</a></li>
+					<li><a href="NghiDuong.html">Nghỉ Dưỡng</a></li>
+					<li><a href="DuLich.html">Du Lịch</a></li>
+				</ul>
+			</div>
 
-						<li><a href="LeHoi.html">Sự Kiện - Lễ Hội</a></li>
-						<li><a href="DacSan.html">Đặc Sản</a></li>
-						<li><a href="NghiDuong.html">Nghỉ Dưỡng</a></li>
-						<li><a href="DuLich.html">Du Lịch</a></li>
-					</ul>
-				</div>
-
-			</nav>
-		</div>
-		<!-- start body -->
+		</nav>
 		<div class="row">
-		<div class="col-md-8"></div>
-		<div class="col-md-4"></div>
 
+			<div class="col-md-8">
+				<div class="item_container">
+					<div class="item_title">
+						<h4>ĐI ĐÂU TUẦN NÀY</h4>
+					</div>
+					<div class="item_content">
+						<table style="width: 100%" border="1">
+							<tr>
+								<td width="50%">
+									<div class="table_hot_item">
+										<img alt="hihi" class="img_hot" src="img/h2.jpg">
+										<div class="table_hot_item_title">
+											<p>
+											<h4>
+												<a href="#">Thư giãn cuối tuần với biển Mũi né</a>
+											</h4>
+											</p>
+										</div>
+									</div>
+
+								</td>
+								<td width="50%">
+									<div class="table_hot_item">
+										<img alt="hihi" class="img_hot" src="img/h1.jpeg">
+										<div class="table_hot_item_title">
+											<p>
+											<h4>
+												<a href="#">Thư giãn cuối tuần với biển Đà Nẵng</a>
+											</h4>
+											</p>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="table_hot_item">
+										<img alt="hihi" class="img_hot" src="img/h3.jpg">
+										<div class="table_hot_item_title">
+											<p>
+											<h4>
+												<a href="#">Thư giãn cuối tuần với biển Mũi né</a>
+											</h4>
+											</p>
+										</div>
+									</div>
+
+								</td>
+								<td>
+									<div class="table_hot_item">
+										<img alt="hihi" class="img_hot" src="img/h4.jpg">
+										<div class="table_hot_item_title">
+											<p>
+											<h4>
+												<a href="#">Thư giãn cuối tuần với biển Đà Nẵng</a>
+											</h4>
+											</p>
+										</div>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="item_container">
+					<div class="item_title">
+						<h4>NỔI BẬT TRONG THÁNG</h4>
+					</div>
+					<div class="item_content">
+					
+					
+					</div>
+				</div>
+
+				<div class="item_container">
+					<div class="item_title">
+						<h4>LỄ HỘI - SỰ KIỆN</h4>
+					</div>
+					<div class="item_content"></div>
+				</div>
+
+
+				<div class="item_container">
+					<div class="item_title">
+						<h4>ẨM THỰC</h4>
+					</div>
+					<div class="item_content"></div>
+				</div>
+			</div>
+			<div class="col-md-4"></div>
 		</div>
-		<!-- end body -->
-		<footer class="footer_style">
-			<center>
-				<p>
-					Bản quyền thuộc về công ty TNHH giải trí truyền thông đa phương
-					tiện Viet media <br> Liên hệ: 09009090909909
-				</p>
-			</center>
-
-		</footer>
 	</div>
-
-
 </body>
 </html>
