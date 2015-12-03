@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.left_menu{
+	overflow:hidden;
+	text-transform:capitalize;
+	margin-top:60px;
+	font-weight:bold;
+}
+.left_menu a{
+	color:#fff;
+}
+
+.left_menu li a:hover{
+	color:red;
+	background-color:#eee;
+}
+.left_menu li a:click{
+	color:red;
+	background-color:#eee;
+}
+.pcontent{
+	margin-top:20px;
+}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    display: block;
+    height: 400px;
+	width:100%;
+    max-width: 100%;
+}
+.mhidden{
+	display:none;
+}
+.mhidden a{
+	padding-left:40px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 100%;
+	white-space: nowrap;
+}
+.list-group-item {
+    background-color: #343399;
+    border: 1px solid #ddd;
+    display: block;
+    margin-bottom: -1px;
+    padding: 10px 15px;
+    position: relative;
+}
+.badge{
+	background-color:#DF0003;
+}

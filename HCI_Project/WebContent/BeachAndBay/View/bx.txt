@@ -1,0 +1,10 @@
+<h3 style="color:#DF0003"> Bánh xèo Long Hải </h3>
+				<p>Bánh xèo là món ăn quen thuộc và phổ biến của người dân Việt Nam. Bánh xèo miền Trung và miền Nam rất đa dạng và có nhiều hương vị khác nhau từ những chiếc bánh xèo xứ Huế, Quảng Ngãi, Phan Thiết cho đến bánh xèo nổi tiếng Mười Xiềm… Nếu đến với vùng biển Long Hải, bạn cũng sẽ có dịp thưởng thức món bánh xèo Long Hải thơm ngon với những bí quyết riêng của mình đã cuốn hút bước chân của rất nhiều du khách.</p>
+				<center><img style="border: 1px solid #b7e2f2;padding:3px;" src="img/banh-xeo-long-hai.jpg" alt="không tải được hình"></center>
+				<p>
+				Nguyên liệu chính để làm bánh xèo vẫn là tôm, thịt heo, hành tây, giá, mộc nhĩ, đậu xanh, trứng gà và bột gạo, nhưng bánh xèo tại quán Long Hải, thị trấn Long Hải, huyện Long Điền lại rất đặc biệt.
+
+Trước hết nhờ nguồn thực phẩm tươi nguyên, mua từ người dân chài đánh bắt trong ngày mang về chưa qua ướp đá, làm lạnh, đồng thời kỹ thuật đổ bánh sao cho giòn, bánh có màu vàng tươi, thơm phức tạo nên điểm hấp dẫn nổi bật của bánh xèo Long Hải. Bên cạnh đó nước chấm của quán được pha chế công phu, vị chua chua ngọt ngọt của dưa cải, vị đậm đà của nước mắm ngon loại đặc biệt còn giúp người ăn có thể cảm nhận được hương vị đặc trưng không lẫn vào đâu được.
+
+Một điều thú vị ở quán bánh xèo Long Hải là người chủ cũng làm du lịch. Chính vì vậy, trong khi thưởng thức món bánh xèo thơm ngon của miền biển, du khách có thể hỏi thăm những tuyến điểm tham quan, khách sạn và giá cả dịch vụ tại nơi đây.
+				</p>

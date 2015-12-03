@@ -1,0 +1,6 @@
+<h3 style="color:#DF0003"> Bánh Canh Long Hương </h3>
+				
+				<center><img style="border: 1px solid #b7e2f2;padding:3px;" src="img/bc.jpg" alt="không tải được hình"></center>
+				<p>
+				Tại thị xã Bà Rịa hiện có 2 tiêm bánh canh mà thực khách có dịp đi ngang thì không thể không ghé vào. Đó là quán Thúy ở ngã ba Long Hương và quán Bánh Canh Long Hương tại cổng chào thị xã Bà Rịa.Bánh canh ăn ngon mà nấu đơn giản, chỉ cần ninh chân giò và xương ống cho ngọt nước lèo rồi nêm nếm gia vị cho vừa miệng. Nước lèo trong veo nhưng có vị ngọt đậm đà của xương và thịt. Sợi bánh được làm bằng bột gạo pha bột lọc để có độ dài và bột màu trắng trong. Bánh canh ăn kèm với gia sống , rau cần và các loại rau thơm khác. Giá đậu xanh chọn loại lùn, thân mập vừa giòn, lại có vị ngọt mát. Bánh canh có 3 món cho thực khách lựa chọn: giò ,nạc và que (que là xương ống có nhiều nạc).
+				</p>
