@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Du lịch</title>
+
+
+	<link href="../../Resources/bootstrap/css/bootstrap.min.css"
+	rel="stylesheet">
+	<script src="../../Resources/lib/jquery-2.1.4.min.js"></script>
+	<script src="../../Resources/bootstrap/js/bootstrap.js"></script>
+	<link href="css/menu.css" rel="stylesheet">
+	<link href="css/home_items.css" rel="stylesheet">
+	<link href="css/nghiduong.css" rel="stylesheet">
+	<style>
+		/* Note: Try to remove the following lines to see the effect of CSS positioning */
+		.affix {
+			top: 0;
+			width: 85%;
+			z-index: 40000000000000;
+		}
+
+		@media ( max-width : 768px) {
+			.affix {
+				width: 93%;
+				z-index: 40000000000000;
+			}
+			.box__fix
+			{
+				width: 100%;
+				margin-right:20px;
+				float: none;
+			}
+			p#title
+			{
+				width: 100%;
+			}
+		}
+
+		.affix+.container {
+			padding-top: 82px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<img alt="HIHIHIH" src="img/lg.jpg"width="100%" height="150px">
+		<div class="menu_border">
+
+
+
+			<nav class="navbar nav-tabs" data-spy="affix" data-offset-top="82">
+				<div class="navbar-header menu_mini">
+					<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar menu_button"
+					style="background-color: black;"></span> <span
+					class="icon-bar menu_button" style="background-color: black;"></span>
+					<span class="icon-bar menu_button"
+					style="background-color: black;"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse menu" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="Home.html">Trang chủ</a></li>
+					<li><a href="Hot.html">Nổi Bật</a></li>
+
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="#">Biển <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="">Biển Nha Trang</a></li>
+							<li><a href="#">Biển Đà Nẵng</a></li>
+							<li><a href="#">Biển Vũng Tàu</a></li>
+							<li><a href="Bien.html">Khác</a></li>
+						</ul></li>
+
+						<li class="dropdown"><a class="dropdown-toggle"
+							data-toggle="dropdown" href="#">Vịnh <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Vịnh Hạ Long</a></li>
+								<li><a href="#">Vịnh Cam Ranh</a></li>
+								<li><a href="#">Vịnh Nha Trang</a></li>
+								<li><a href="Vinh.html">Khác</a></li>
+							</ul></li>
+
+							<li><a href="LeHoi.html">Sự Kiện - Lễ Hội</a></li>
+							<li><a href="DacSan.html">Đặc Sản</a></li>
+							<li><a href="NghiDuong.html">Nghỉ Dưỡng</a></li>
+							<li><a href="DuLich.html">Du Lịch</a></li>
+						</ul>
+					</div>
+
+				</nav>
+			</div>
+			<!-- start body -->
+			<div class="row " >
+				<div class="col-md-9 item__inline" >
+					<p id="title">
+						Tour du lịch
+					</p>
+					<div class="box__fix">
+						<a href="http://www.hotdeal.vn/ho-chi-minh/du-lich/phan-thiet-2n1d-du-lich-phan-thiet-mui-ne-khach-san-4-muong-thanh-don-le-tet-danh-cho-1-khach-200206.html">
+							<div class="panel panel-default ">
+								<div class="panel-body position__item">
+									<img src="img/phanthiet.jpg"  class="img-responsive padding__bottom" alt="" >
+									<label class="text-overlay">Phan Thiết</label>
+									<label class="text-overlay1">HotDeal.vn</label>
+								</div>
+								<div class="panel-footer">
+									<div>[Chân Trời Mới] Tour du lịch Phan Thiết 2 ngày 2 đêm</div>
+
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="box__fix" >
+						<a href="http://www.hotdeal.vn/ho-chi-minh/du-lich/flash-deal-nha-trang-tour-nha-trang-bao-gom-vinpearl-2n3d-danh-cho-01-nguoi-188428.html">
+							<div class="panel panel-default ">
+								<div class="panel-body position__item">
+									<img src="img/nhatrang.jpg"  class="img-responsive padding__bottom" alt="" >
+									<label class="text-overlay">Nha Trang</label>
+									<label class="text-overlay1">HotDeal.vn</label>
+								</div>
+								<div class="panel-footer">
+									<div>[HAIDANGTRAVEL] Tour du lịch Nha Trang 2 ngày 3 đêm</div>
+
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="box__fix">
+						<a href="http://www.hotdeal.vn/ho-chi-minh/du-lich/tour-le-tet-tour-kham-pha-phu-yen-3n3d-buffet-gala-nghe-thuat-bai-choi-danh-cho-01-nguoi-205018.html">
+							<div class="panel panel-default ">
+								<div class="panel-body position__item">
+									<img src="img/phuyen.jpg"  class="img-responsive padding__bottom" alt="" >
+									<label class="text-overlay">Phú Yên</label>
+									<label class="text-overlay1">HotDeal.vn</label>
+								</div>
+
+								<div class="panel-footer">
+									<div>[HAIDANGTRAVEL] Tour du lịch Phú Yên 3 ngày 3 đêm</div>
+
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="box__fix">
+						<a href="http://www.hotdeal.vn/ho-chi-minh/du-lich/tour-da-nang-son-tra-du-thuyen-song-han-ba-na-hoi-an-3n2d-154266.html">
+							<div class="panel panel-default ">
+								<div class="panel-body position__item">
+									<img src="img/danang.jpg"  class="img-responsive padding__bottom" alt="" >
+									<label class="text-overlay">Đà Nẵng</label>
+									<label class="text-overlay1">HotDeal.vn</label>
+								</div>
+								<div class="panel-footer">
+									<div>[Du lịch Gia Nguyễn] Tour du lịch Đà Nẵng 3 ngày 2 đêm</div>
+
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="box__fix">
+						<a href="http://www.hotdeal.vn/ho-chi-minh/du-lich/vung-tau-binh-chau-ho-kdl-ho-may-2n1d-khach-san-3-danh-cho-1-nguoi-182050.html">
+							<div class="panel panel-default ">
+								<div class="panel-body position__item">
+									<img src="img/vungtau.jpg"  class="img-responsive padding__bottom" alt="" >
+									<label class="text-overlay">Vũng Tàu</label>
+									<label class="text-overlay1">HotDeal.vn</label>
+								</div>
+								<div class="panel-footer">
+									<div>[Công ty Du lịch 168 ] Tour du lịch Vũng Tàu 2 ngày 1 đêm</div>
+
+								</div>
+							</div>
+
+						</a>
+					</div>
+					<div class="box__fix">
+						<a href="http://www.hotdeal.vn/ho-chi-minh/du-lich/ha-noi-4n4d-tour-du-lich-ha-noi-sapa-ha-long-tuan-chau-yen-tu-gom-ve-may-bay-don-le-tet-danh-cho-1-khach-202005.html">
+							<div class="panel panel-default ">
+								<div class="panel-body position__item">
+									<img src="img/vinhhalong.jpg"  class="img-responsive padding__bottom" alt="" >
+									<label class="text-overlay">Vịnh Hạ Long</label>
+									<label class="text-overlay1">HotDeal.vn</label>
+								</div>
+								<div class="panel-footer">
+									<div>[Chân trời mới] Tour du lịch Vịnh Hạ Long 5 ngày 4 đêm</div>
+
+								</div>
+							</div>
+						</a>
+
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="panel panel-default ">
+						<div class="panel-heading clickable">
+							<h3 class="panel-title "><b>Điểm đến</b></h3>
+							<span class="pull-right "><i class="glyphicon glyphicon-chevron-up"></i></span>
+						</div>
+						<div class="panel-body" style="padding-left:30px">
+							<div class="checkbox">
+								<label >
+									<input type="checkbox" > <b>Miền Bắc</b>
+								</label>
+								<span class="badge float__right">10</span>
+							</div>
+
+							<div class="checkbox">
+								<label>
+									<input type="checkbox"> <b>Miền Trung</b>
+								</label>
+								<span class="badge float__right">10</span>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox"> <b>Miền Nam</b>
+								</label>
+								<span class="badge float__right">10</span>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default" >
+						<div class="panel-heading clickable">
+							<h3 class="panel-title "><b>Khu vực</b></h3>
+							<span class="pull-right "><i class="glyphicon glyphicon-chevron-up"></i></span>
+						</div>
+						<div class="panel-body" style="padding-left:30px; max-height: 200px;
+						overflow-y:scroll; " >
+						<div class="checkbox">
+							<label >
+								<input type="checkbox"> <b>Đà nẵng</b>
+							</label>
+							<span class="badge float__right">20</span>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> <b>Nha Trang</b>
+							</label>
+							<span class="badge float__right">20</span>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> <b>Phú Yên</b>
+							</label>
+							<span class="badge float__right">20</span>
+						</div>
+						<div class="checkbox">
+							<label >
+								<input type="checkbox"> <b>Hạ Long</b>
+							</label>
+							<span class="badge float__right">20</span>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> <b>Vũng Tàu</b>
+							</label>
+							<span class="badge float__right">30</span>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> <b>Cần Giờ</b>
+							</label>
+							<span class="badge float__right">30</span>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> <b>Phan Thiết</b>
+							</label>
+							<span class="badge float__right">30</span>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> <b>Mũi Né</b>
+							</label>
+							<span class="badge float__right">30</span>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> <b>Hà Tiên</b>
+							</label>
+							<span class="badge float__right">30</span>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading clickable">
+						<h3 class="panel-title "><b>Tour theo ngày</b></h3>
+						<span class="pull-right "><i class="glyphicon glyphicon-chevron-up"></i></span>
+					</div>
+					<div class="panel-body" style="padding-left:30px">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> <b>2 ngày 1 đêm</b>
+							</label>
+							<span class="badge float__right">30</span>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> <b>3 ngày 2 đêm</b>
+							</label>
+							<span class="badge float__right">30</span>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> <b>4 ngày 3 đêm</b>
+							</label>
+							<span class="badge float__right">30</span>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> <b>5 ngày 4 đêm</b>
+							</label>
+							<span class="badge float__right">30</span>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> <b>Khác</b>
+							</label>
+							<span class="badge float__right">30</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end body -->
+		<footer class="footer_style">
+			<center>
+				<p>
+					Bản quyền thuộc về công ty TNHH giải trí truyền thông đa phương
+					tiện Viet media <br> Liên hệ: 09009090909909
+				</p>
+			</center>
+
+		</footer>
+	</div>
+
+	<script type="text/javascript">
+		jQuery(function ($) {
+			$('.panel-heading').on("click", function (e) {
+				if ($(this).hasClass('panel-collapsed')) {
+                // expand the panel
+                $(this).parents('.panel').find('.panel-body').slideDown();
+                $(this).removeClass('panel-collapsed');
+                $(this).find('i').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+            }
+            else {
+                // collapse the panel
+                $(this).parents('.panel').find('.panel-body').slideUp();
+                $(this).addClass('panel-collapsed');
+                $(this).find('i').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+            }
+        });
+		});
+	</script>
+</body>
+</html>
+

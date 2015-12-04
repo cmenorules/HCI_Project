@@ -95,6 +95,18 @@ a
 	padding-right: 3px;
 
 }
+.text-overlay1
+{
+	position: absolute;
+	background-color: rgba(255,0,0,0.7);
+	color: #FFFFFF;
+	font-weight: normal;
+	top:5px;
+	right: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+
+}
 .position__item
 {
 	position: relative;
