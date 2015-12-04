@@ -30,15 +30,15 @@
 	color: white;
 }
 
-.menu a:HOVER {
-	color: red;
-	background-color: white;
+.menu a:HOVER {	
+	color: white;	
 }
 
-.menu li:HOVER {
-	background: white;
-	background-color: white;
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #1B0E7E;
 }
+
 
 .home_content
 {
@@ -50,15 +50,6 @@
 	background-color: black;
 }
 
-.li_large
-{
-	width:700px;
-	height: auto;
-}
-.li_large a
-{
-	color: black;
-}
 
 .footer_style {
 	margin-top: 10px;
@@ -68,3 +59,13 @@
 	padding: 20px;
 }
 
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #1B0E7E;
+    border-color: #337AB7;
+}
+
+
+.menu_active {
+	background-color: #1B0E7E;
+}

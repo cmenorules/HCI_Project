@@ -70,16 +70,16 @@
 	color: red;
 	font-weight: bold;
 	font-size: medium;
-	
+	padding-left: 5px;
 	
 	
 }
 
 .table_hot_item_title a
 {
-	color: red;
+	color: white;
 	font-weight:bold;
-	text-decoration: none;
+	text-decoration: none;	
 }
 
 .img_title_bg
