@@ -62,8 +62,9 @@ body{
 .img-responsive
 {
 	width: 100%;
-	max-height: 170px;
-	min-height: 170px;
+	max-height: 175px;
+	min-height: 175px;
+	margin-bottom: -8px;
 }
 .scale
 {
