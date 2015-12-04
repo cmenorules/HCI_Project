@@ -1,4 +1,3 @@
-c
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,6 +11,7 @@ c
 <script src="../../Resources/bootstrap/js/bootstrap.js"></script>
 <link href="css/menu.css" rel="stylesheet">
 <link href="css/home_items.css" rel="stylesheet">
+<link href="css/DacSan.css" rel="stylesheet">
 <style>
 /* Note: Try to remove the following lines to see the effect of CSS positioning */
 .affix {
@@ -28,62 +28,60 @@ c
 }
 
 .affix+.container {
-	padding-top: 82px;
+	padding-top: 165px;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	width: 100%;
+	margin: auto;
+	max-height: 300px;
 }
 </style>
 </head>
 <body>
 
 	<div class="container">
-		<img alt="HIHIHIH" src="img/logo.png">
-		<div class="menu_border">
+		<img alt="HIHIHIH" width="100%" height="150px" src="img/lg.jpg">
+		<nav class="navbar nav-tabs" data-spy="affix" data-offset-top="150">
+			<div class="navbar-header menu_mini">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar menu_button" style="background-color: black;"></span>
+					<span class="icon-bar menu_button" style="background-color: black;"></span>
+					<span class="icon-bar menu_button" style="background-color: black;"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse menu" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="menu_active"><a href="Home.html">Trang chủ</a></li>
+					<li><a href="NoiBat.html">Nổi Bật</a></li>
 
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="#">Biển <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="">Biển Nha Trang</a></li>
+							<li><a href="#">Biển Đà Nẵng</a></li>
+							<li><a href="#">Biển Vũng Tàu</a></li>
+							<li><a href="Bien.html">Khác</a></li>
+						</ul></li>
 
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="#">Vịnh <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Vịnh Hạ Long</a></li>
+							<li><a href="#">Vịnh Cam Ranh</a></li>
+							<li><a href="#">Vịnh Nha Trang</a></li>
+							<li><a href="Vinh.html">Khác</a></li>
+						</ul></li>
 
-			<nav class="navbar nav-tabs" data-spy="affix" data-offset-top="82">
-				<div class="navbar-header menu_mini">
-					<button type="button" class="navbar-toggle" data-toggle="collapse"
-						data-target="#myNavbar">
-						<span class="icon-bar menu_button"
-							style="background-color: black;"></span> <span
-							class="icon-bar menu_button" style="background-color: black;"></span>
-						<span class="icon-bar menu_button"
-							style="background-color: black;"></span>
-					</button>
-				</div>
-				<div class="collapse navbar-collapse menu" id="myNavbar">
-					<ul class="nav navbar-nav">
-						<li><a href="Home.html">Trang chủ</a></li>
-						<li><a href="Hot.html">Nổi Bật</a></li>
+					<li><a href="LeHoi.html">Sự Kiện - Lễ Hội</a></li>
+					<li><a href="DacSan.html">Đặc Sản</a></li>
+					<li><a href="NghiDuong.html">Nghỉ Dưỡng</a></li>
+					<li><a href="DuLich.html">Du Lịch</a></li>
+				</ul>
+			</div>
 
-						<li class="dropdown"><a class="dropdown-toggle"
-							data-toggle="dropdown" href="#">Biển <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="">Biển Nha Trang</a></li>
-								<li><a href="#">Biển Đà Nẵng</a></li>
-								<li><a href="#">Biển Vũng Tàu</a></li>
-								<li><a href="Bien.html">Khác</a></li>
-							</ul></li>
-
-						<li class="dropdown"><a class="dropdown-toggle"
-							data-toggle="dropdown" href="#">Vịnh <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Vịnh Hạ Long</a></li>
-								<li><a href="#">Vịnh Cam Ranh</a></li>
-								<li><a href="#">Vịnh Nha Trang</a></li>
-								<li><a href="Vinh.html">Khác</a></li>
-							</ul></li>
-
-						<li><a href="LeHoi.html">Sự Kiện - Lễ Hội</a></li>
-						<li><a href="DacSan.html">Đặc Sản</a></li>
-						<li><a href="NghiDuong.html">Nghỉ Dưỡng</a></li>
-						<li><a href="DuLich.html">Du Lịch</a></li>
-					</ul>
-				</div>
-
-			</nav>
-		</div>
-		<!-- start body -->
+		</nav>
 		<div class="row container-fluid">
 			<div class="col-sm-3">
 				<div class="panel panel-default">
@@ -92,7 +90,7 @@ c
 							src="http://sohatravel.vn/image/data/tin-tuc/am-thuc/Dac-san-Da-Nang-6.jpg">
 					</div>
 					<div class="panel-footer">
-						<a href="#">Mực Rim Đà Nẵng</a>
+						<a href="DacSan-NaiKho.html">Mực Rim Đà Nẵng</a>
 					</div>
 				</div>
 				<div class="panel panel-default">
@@ -101,7 +99,7 @@ c
 							src="http://sohatravel.vn/image/data/tin-tuc/am-thuc/Dac-san-Da-Nang-8.jpg">
 					</div>
 					<div class="panel-footer">
-						<a href="#">Chả Bò Đà Nẵng</a>
+						<a href="DacSan-NaiKho.html">Chả Bò Đà Nẵng</a>
 					</div>
 				</div>
 				<div class="panel panel-default">
@@ -110,7 +108,7 @@ c
 							src="http://www.phanthietvn.com/images/2_dac_san/cac_mon_banh/banh_re/banh_re_phan_thiet270.jpg">
 					</div>
 					<div class="panel-footer">
-						<a href="#">Bánh Rế Phan Thiết</a>
+						<a href="DacSan-NaiKho.html">Bánh Rế Phan Thiết</a>
 					</div>
 				</div>
 				<div class="panel panel-default">
@@ -119,7 +117,7 @@ c
 							src="http://www.phanthietvn.com/images/2_dac_san/cac_mon_banh/banh_trang_mam_ruoc_nuong/banh_trang_mam_ruoc_nuong_phan_thiet270.jpg">
 					</div>
 					<div class="panel-footer">
-						<a href="#">Bánh Tráng Mắm Ruốc Nướng Phan Thiết</a>
+						<a href="DacSan-NaiKho.html">Bánh Tráng Mắm Ruốc Nướng Phan Thiết</a>
 					</div>
 				</div>
 			</div>
@@ -130,7 +128,7 @@ c
 							src="http://dacsanvietnam.net.vn/wp-content/themes/technologic/scripts/timthumb.php?src=http://dacsanvietnam.net.vn/wp-content/uploads/2013/12/chacanhac.jpg&h=100&w=160&zc=1">
 					</div>
 					<div class="panel-footer">
-						<a href="#">Chả Cá Nhạc Hạ Long</a>
+						<a href="DacSan-NaiKho.html">Chả Cá Nhạc Hạ Long</a>
 					</div>
 				</div>
 				<div class="panel panel-default">
@@ -139,7 +137,7 @@ c
 							src="http://sohatravel.vn/image/data/tin-tuc/am-thuc/Dac-san-Da-Nang--15.jpg">
 					</div>
 					<div class="panel-footer">
-						<a href="#">Tré Bà Đệ Đà Nẵng</a>
+						<a href="DacSan-NaiKho.html">Tré Bà Đệ Đà Nẵng</a>
 					</div>
 				</div>
 				<div class="panel panel-default">
@@ -148,7 +146,7 @@ c
 							src="https://cdn3.ivivu.com/2012/12/1don-QN.jpg">
 					</div>
 					<div class="panel-footer">
-						<a href="#">Don Quảng Ngãi</a>
+						<a href="DacSan-NaiKho.html">Don Quảng Ngãi</a>
 					</div>
 				</div>
 				<div class="panel panel-default">
@@ -157,7 +155,7 @@ c
 							src="https://cdn3.ivivu.com/2012/12/3quatrabong.jpg">
 					</div>
 					<div class="panel-footer">
-						<a href="#">Quế Trà Bồng</a>
+						<a href="DacSan-NaiKho.html">Quế Trà Bồng</a>
 					</div>
 				</div>
 			</div>
@@ -168,7 +166,7 @@ c
 							src="https://cdn3.ivivu.com/2012/12/4cabongsongtra.jpg">
 					</div>
 					<div class="panel-footer">
-						<a href="#">Cá Bống Sông Trà</a>
+						<a href="DacSan-NaiKho.html">Cá Bống Sông Trà</a>
 					</div>
 				</div>
 				<div class="panel panel-default">
@@ -177,7 +175,7 @@ c
 							src="https://cdn3.ivivu.com/2012/12/5keomachnha.jpg">
 					</div>
 					<div class="panel-footer">
-						<a href="#">Kẹo Mạch Nha Quảng Ngãi</a>
+						<a href="DacSan-NaiKho.html">Kẹo Mạch Nha Quảng Ngãi</a>
 					</div>
 				</div>
 				<div class="panel panel-default">
@@ -186,7 +184,7 @@ c
 							src="https://cdn3.ivivu.com/2012/12/7mamnhum.jpg">
 					</div>
 					<div class="panel-footer">
-						<a href="#">Mắm Nhum</a>
+						<a href="DacSan-NaiKho.html">Mắm Nhum</a>
 					</div>
 				</div>
 				<div class="panel panel-default">
@@ -195,7 +193,7 @@ c
 							src="https://cdn3.ivivu.com/2012/12/11-toilyson.jpg">
 					</div>
 					<div class="panel-footer">
-						<a href="#">Tỏi Lý Sơn</a>
+						<a href="DacSan-NaiKho.html">Tỏi Lý Sơn</a>
 					</div>
 				</div>
 			</div>
@@ -206,7 +204,7 @@ c
 							src="http://dulich9.com/wp-content/uploads/2015/04/nhung-dac-san-nha-trang-nen-mua-lam-qua5.jpg">
 					</div>
 					<div class="panel-footer">
-						<a href="#">Bánh Xoài Nha Trang</a>
+						<a href="DacSan-NaiKho.html">Bánh Xoài Nha Trang</a>
 					</div>
 				</div>
 				<div class="panel panel-default">
@@ -215,7 +213,7 @@ c
 							src="http://dulich9.com/wp-content/uploads/2015/04/nhung-dac-san-nha-trang-nen-mua-lam-qua2.jpg">
 					</div>
 					<div class="panel-footer">
-						<a href="#">Bong Bóng Cá Nha Trang</a>
+						<a href="DacSan-NaiKho.html">Bong Bóng Cá Nha Trang</a>
 					</div>
 				</div>
 				<div class="panel panel-default">
@@ -224,7 +222,7 @@ c
 							src="http://dulich9.com/wp-content/uploads/2015/04/nhung-dac-san-nha-trang-nen-mua-lam-qua7.jpg">
 					</div>
 					<div class="panel-footer">
-						<a href="#">Yến Sào Khánh Hòa</a>
+						<a href="DacSan-NaiKho.html">Yến Sào Khánh Hòa</a>
 					</div>
 				</div>
 				<div class="panel panel-default">
@@ -233,7 +231,7 @@ c
 							src="http://dulich9.com/wp-content/uploads/2015/04/nhung-dac-san-nha-trang-nen-mua-lam-qua6.jpeg">
 					</div>
 					<div class="panel-footer">
-						<a href="#">Nem Ninh Hòa</a>
+						<a href="DacSan-NaiKho.html">Nem Ninh Hòa</a>
 					</div>
 				</div>
 			</div>
@@ -241,10 +239,12 @@ c
 		<hr>
 		<div class="row container-fluid">
 			<h4 class="text-center">
-				<a href="#">Xem Thêm</a>
+				<a href="DacSan.html">Xem Thêm</a>
 			</h4>
 		</div>
-		<!-- end body -->
+			<!-- end body -->
+
+		</div>
 		<footer class="footer_style">
 			<center>
 				<p>
@@ -255,8 +255,5 @@ c
 
 		</footer>
 	</div>
-
-
 </body>
 </html>
-s
