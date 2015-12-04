@@ -89,7 +89,7 @@ a
 	background-color: rgba(0,0,0,0.5);
 	color: #FFFFFF;
 	font-weight: normal;
-	top:15px;
+	top:5px;
 	padding-left: 3px;
 	padding-right: 3px;
 
@@ -108,4 +108,8 @@ a
 	margin-right:20px;
 	float: left;
 	font-weight: bold;
+}
+.panel-body.position__item
+{
+	padding: 3px 3px 0px 3px;
 }
