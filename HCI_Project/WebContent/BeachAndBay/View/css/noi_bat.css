@@ -1,0 +1,26 @@
+.nb_data_container
+{
+	padding: 3px;
+	position: relative;	
+}
+
+.nb_data_item
+{
+	position: absolute;
+	bottom: 50px;
+	font-size: xx-large;
+	font-weight: bolder;
+	color: red;
+	left: 40%;
+}
+
+.nb_content
+{
+	padding: 20px;
+}
+
+.nb_content h3
+{
+	color: red;
+	font-weight: bold;	
+}
