@@ -114,3 +114,7 @@
 .brbr{
     display: none;
 }
+.__fix
+{
+    padding:10px;
+}
