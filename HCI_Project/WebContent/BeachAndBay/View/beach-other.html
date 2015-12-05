@@ -15,62 +15,76 @@
 /* Note: Try to remove the following lines to see the effect of CSS positioning */
 .affix {
 	top: 0;
-	width: 85%;
+	width: 100%;
 	z-index: 40000000000000;
 }
 
 @media ( max-width : 768px) {
-.affix {
-	width: 93%;
-	z-index: 40000000000000;
+	.affix {
+		z-index: 40000000000000;
+	}
+	.box__fix {
+		width: 100%;
+		margin-right: 20px;
+		float: none;
+	}
+	p#title {
+		width: 100%;
+	}
+	.menu__padding {
+		padding-left: 5px;
+	}
 }
-}
+
 .affix+.container {
 	padding-top: 82px;
 }
 </style>
 </head>
 <body>
-<div class="container"> <img alt="HIHIHIH" width="100%" height="150px" src="img/lg.jpg">
-	<div class="menu_border">
-		<nav class="navbar nav-tabs" data-spy="affix" data-offset-top="82">
-			<div class="navbar-header menu_mini">
-				<button type="button" class="navbar-toggle" data-toggle="collapse"
-						data-target="#myNavbar"> <span class="icon-bar menu_button"
-							style="background-color: black;"></span> <span
-							class="icon-bar menu_button" style="background-color: black;"></span> <span class="icon-bar menu_button"
-							style="background-color: black;"></span> </button>
-			</div>
-			<div class="collapse navbar-collapse menu" id="myNavbar">
-				<ul class="nav navbar-nav">
-					<li><a href="Home.html">Trang chủ</a></li>
-					<li><a href="Hot.html">Nổi Bật</a></li>
-					<li class="dropdown"><a class="dropdown-toggle"
-							data-toggle="dropdown" href="#/">Biển <span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="">Biển Nha Trang</a></li>
-							<li><a href="#/">Biển Đà Nẵng</a></li>
-							<li><a href="#/">Biển Vũng Tàu</a></li>
-							<li><a href="Bien.html">Khác</a></li>
-						</ul>
-					</li>
-					<li class="dropdown"><a class="dropdown-toggle"
-							data-toggle="dropdown" href="#/">Vịnh <span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#/">Vịnh Hạ Long</a></li>
-							<li><a href="#/">Vịnh Cam Ranh</a></li>
-							<li><a href="#/">Vịnh Nha Trang</a></li>
-							<li><a href="Vinh.html">Khác</a></li>
-						</ul>
-					</li>
-					<li><a href="LeHoi.html">Sự Kiện - Lễ Hội</a></li>
-					<li><a href="DacSan.html">Đặc Sản</a></li>
-					<li><a href="NghiDuong.html">Nghỉ Dưỡng</a></li>
-					<li><a href="DuLich.html">Du Lịch</a></li>
-				</ul>
-			</div>
-		</nav>
-	</div>
+
+	<img alt="HIHIHIH" width="100%" height="150px" src="img/lg.jpg">
+	<nav class="navbar nav-tabs" data-spy="affix" data-offset-top="150">
+		<div class="navbar-header menu_mini">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target="#myNavbar">
+				<span class="icon-bar menu_button" style="background-color: black;"></span>
+				<span class="icon-bar menu_button" style="background-color: black;"></span>
+				<span class="icon-bar menu_button" style="background-color: black;"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse menu" id="myNavbar">
+			<ul class="nav navbar-nav menu__padding">
+				<li class=""><a href="Home.html">Trang chủ</a></li>
+				<li><a href="NoiBat.html">Nổi Bật</a></li>
+
+				<li class="dropdown"><a class="dropdown-toggle menu_active"
+					data-toggle="dropdown" href="#">Biển <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="beach.html">Biển Nha Trang</a></li>
+						<li><a href="beach.html">Biển Đà Nẵng</a></li>
+						<li><a href="beach.html">Biển Vũng Tàu</a></li>
+						<li><a href="beach-other.html">Khác</a></li>
+					</ul></li>
+
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">Vịnh <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="vinh-ha-long.html">Vịnh Hạ Long</a></li>
+						<li><a href="vinh-ha-long.html">Vịnh Cam Ranh</a></li>
+						<li><a href="vinh-ha-long.html">Vịnh Nha Trang</a></li>
+						<li><a href="vinh.html">Khác</a></li>
+					</ul></li>
+
+				<li><a href="LeHoi.html">Sự Kiện - Lễ Hội</a></li>
+				<li><a href="DacSan.html">Đặc Sản</a></li>
+				<li><a href="NghiDuong.html">Nghỉ Dưỡng</a></li>
+				<li><a href="DuLich.html">Du Lịch</a></li>
+			</ul>
+		</div>
+
+	</nav>
+	<div class="container">
 	<!-- start body -->
 	<div class="row"> 		
 		<div class="col-md-9 item__inline">
@@ -122,7 +136,7 @@
 										<div class="table_hot_item_title">
 											<p>
 											</p><h4>
-												<a href="file:///E:/ANHTUYEN/HOCTAP/GiaoTiepNguoiMay/project/HCI_Project.git/trunk/HCI_Project/WebContent/BeachAndBay/View/beach.html#/">Thư giãn cuối tuần với biển Mũi né</a>
+												<a href="beach.html#/">Thư giãn cuối tuần với biển Mũi né</a>
 											</h4>
 											<p></p>
 										</div>
@@ -135,7 +149,7 @@
 										<div class="table_hot_item_title">
 											<p>
 											</p><h4>
-												<a href="#">Thư giãn cuối tuần với biển Đà Nẵng</a>
+												<a href="beach.html#/">Thư giãn cuối tuần với biển Đà Nẵng</a>
 											</h4>
 											<p></p>
 										</div>
@@ -149,7 +163,7 @@
 										<div class="table_hot_item_title">
 											<p>
 											</p><h4>
-												<a href="#">Thư giãn cuối tuần với biển Mũi né</a>
+												<a href="beach.html#/">Thư giãn cuối tuần với biển Mũi né</a>
 											</h4>
 											<p></p>
 										</div>
@@ -162,7 +176,7 @@
 										<div class="table_hot_item_title">
 											<p>
 											</p><h4>
-												<a href="#">Thư giãn cuối tuần với biển Đà Nẵng</a>
+												<a href="beach.html#/">Thư giãn cuối tuần với biển Đà Nẵng</a>
 											</h4>
 											<p></p>
 										</div>
@@ -175,7 +189,7 @@
 										<div class="table_hot_item_title">
 											<p>
 											</p><h4>
-												<a href="#">Thư giãn cuối tuần với biển Mũi né</a>
+												<a href="beach.html#/">Thư giãn cuối tuần với biển Mũi né</a>
 											</h4>
 											<p></p>
 										</div>
@@ -188,7 +202,7 @@
 										<div class="table_hot_item_title">
 											<p>
 											</p><h4>
-												<a href="#">Thư giãn cuối tuần với biển Đà Nẵng</a>
+												<a href="beach.html#/">Thư giãn cuối tuần với biển Đà Nẵng</a>
 											</h4>
 											<p></p>
 										</div>
@@ -202,7 +216,7 @@
 										<div class="table_hot_item_title">
 											<p>
 											</p><h4>
-												<a href="#">Thư giãn cuối tuần với biển Mũi né</a>
+												<a href="beach.html#/">Thư giãn cuối tuần với biển Mũi né</a>
 											</h4>
 											<p></p>
 										</div>
@@ -215,7 +229,7 @@
 										<div class="table_hot_item_title">
 											<p>
 											</p><h4>
-												<a href="#">Thư giãn cuối tuần với biển Đà Nẵng</a>
+												<a href="beach.html#/">Thư giãn cuối tuần với biển Đà Nẵng</a>
 											</h4>
 											<p></p>
 										</div>
@@ -228,7 +242,7 @@
 										<div class="table_hot_item_title">
 											<p>
 											</p><h4>
-												<a href="#">Thư giãn cuối tuần với biển Mũi né</a>
+												<a href="beach.html#/">Thư giãn cuối tuần với biển Mũi né</a>
 											</h4>
 											<p></p>
 										</div>
@@ -241,7 +255,7 @@
 										<div class="table_hot_item_title">
 											<p>
 											</p><h4>
-												<a href="#">Thư giãn cuối tuần với biển Đà Nẵng</a>
+												<a href="beach.html#/">Thư giãn cuối tuần với biển Đà Nẵng</a>
 											</h4>
 											<p></p>
 										</div>
@@ -266,7 +280,7 @@
 						Nghỉ Dưỡng
 					</p></a>
 		<div class="">
-						<a href="#">
+						<a href="HotelAndResort.html#/">
 							<div class="panel panel-default ">
 								<div class="panel-body position__item">
 									<img alt="" class="img-responsive padding__bottom" src="img/6.jpeg">
@@ -278,7 +292,7 @@
 
 					</div>
 					<div class="">
-						<a href="#">
+						<a href="HotelAndResort.html#/">
 							<div class="panel panel-default ">
 								<div class="panel-body position__item">
 									<img alt="" class="img-responsive padding__bottom" src="img/4.jpeg">
@@ -289,7 +303,7 @@
 						</a>
 					</div>
 					<div class="">
-						<a href="#">
+						<a href="HotelAndResort.html#/">
 							<div class="panel panel-default ">
 								<div class="panel-body position__item">
 									<img alt="" class="img-responsive padding__bottom" src="img/5.jpeg">
@@ -303,7 +317,7 @@
 						Du lịch
 					</p></a>
 		<div class="">
-						<a href="#">
+						<a href="http://www.hotdeal.vn/ho-chi-minh/du-lich/tour-le-tet-tour-kham-pha-phu-yen-3n3d-buffet-gala-nghe-thuat-bai-choi-danh-cho-01-nguoi-205018.html">
 							<div class="panel panel-default ">
 								<div class="panel-body position__item">
 									<img alt="" class="img-responsive padding__bottom" src="img/6.jpeg">
@@ -315,7 +329,7 @@
 
 					</div>
 					<div class="">
-						<a href="#">
+						<a href="http://www.hotdeal.vn/ho-chi-minh/du-lich/tour-le-tet-tour-kham-pha-phu-yen-3n3d-buffet-gala-nghe-thuat-bai-choi-danh-cho-01-nguoi-205018.html">
 							<div class="panel panel-default ">
 								<div class="panel-body position__item">
 									<img alt="" class="img-responsive padding__bottom" src="img/4.jpeg">
@@ -326,7 +340,7 @@
 						</a>
 					</div>
 					<div class="">
-						<a href="#">
+						<a href="http://www.hotdeal.vn/ho-chi-minh/du-lich/tour-le-tet-tour-kham-pha-phu-yen-3n3d-buffet-gala-nghe-thuat-bai-choi-danh-cho-01-nguoi-205018.html">
 							<div class="panel panel-default ">
 								<div class="panel-body position__item">
 									<img alt="" class="img-responsive padding__bottom" src="img/5.jpeg">
@@ -346,6 +360,6 @@
 				Liên hệ: 09009090909909 </p>
 		</center>
 	</footer>
-</div>
+</div></div>
 </body>
 </html>
