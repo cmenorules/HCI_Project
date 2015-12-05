@@ -15,19 +15,29 @@
 /* Note: Try to remove the following lines to see the effect of CSS positioning */
 .affix {
 	top: 0;
-	width: 85%;
+	width: 100%;
 	z-index: 40000000000000;
 }
 
 @media ( max-width : 768px) {
 	.affix {
-		width: 93%;
 		z-index: 40000000000000;
+	}
+	.box__fix {
+		width: 100%;
+		margin-right: 20px;
+		float: none;
+	}
+	p#title {
+		width: 100%;
+	}
+	.menu__padding {
+		padding-left: 5px;
 	}
 }
 
 .affix+.container {
-	padding-top: 165px;
+	padding-top: 82px;
 }
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
@@ -38,50 +48,50 @@
 </style>
 </head>
 <body>
+	<img alt="HIHIHIH" width="100%" height="150px" src="img/lg.jpg">
+	<nav class="navbar nav-tabs" data-spy="affix" data-offset-top="150">
+		<div class="navbar-header menu_mini">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target="#myNavbar">
+				<span class="icon-bar menu_button" style="background-color: black;"></span>
+				<span class="icon-bar menu_button" style="background-color: black;"></span>
+				<span class="icon-bar menu_button" style="background-color: black;"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse menu" id="myNavbar">
+			<ul class="nav navbar-nav menu__padding">
+				<li class="menu_active"><a href="Home.html">Trang chủ</a></li>
+				<li><a href="NoiBat.html">Nổi Bật</a></li>
 
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">Biển <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="beach.html">Biển Nha Trang</a></li>
+						<li><a href="beach.html">Biển Đà Nẵng</a></li>
+						<li><a href="beach.html">Biển Vũng Tàu</a></li>
+						<li><a href="beach-other.html">Khác</a></li>
+					</ul></li>
+
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">Vịnh <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Vịnh Hạ Long</a></li>
+						<li><a href="#">Vịnh Cam Ranh</a></li>
+						<li><a href="#">Vịnh Nha Trang</a></li>
+						<li><a href="vinh.html">Khác</a></li>
+					</ul></li>
+
+				<li><a href="LeHoi.html">Sự Kiện - Lễ Hội</a></li>
+				<li><a href="DacSan.html">Đặc Sản</a></li>
+				<li><a href="NghiDuong.html">Nghỉ Dưỡng</a></li>
+				<li><a href="DuLich.html">Du Lịch</a></li>
+			</ul>
+		</div>
+
+	</nav>
 
 	<div class="container">
-		<img alt="HIHIHIH" width="100%" height="150px" src="img/lg.jpg">
-		<nav class="navbar nav-tabs" data-spy="affix" data-offset-top="150">
-			<div class="navbar-header menu_mini">
-				<button type="button" class="navbar-toggle" data-toggle="collapse"
-					data-target="#myNavbar">
-					<span class="icon-bar menu_button" style="background-color: black;"></span>
-					<span class="icon-bar menu_button" style="background-color: black;"></span>
-					<span class="icon-bar menu_button" style="background-color: black;"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse menu" id="myNavbar">
-				<ul class="nav navbar-nav">
-					<li class="menu_active"><a href="Home.html">Trang chủ</a></li>
-					<li><a href="NoiBat.html">Nổi Bật</a></li>
 
-					<li class="dropdown"><a class="dropdown-toggle"
-						data-toggle="dropdown" href="#">Biển <span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="beach.html">Biển Nha Trang</a></li>
-							<li><a href="beach.html">Biển Đà Nẵng</a></li>
-							<li><a href="beach.html">Biển Vũng Tàu</a></li>
-							<li><a href="beach-other.html">Khác</a></li>
-						</ul></li>
-
-					<li class="dropdown"><a class="dropdown-toggle"
-						data-toggle="dropdown" href="#">Vịnh <span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Vịnh Hạ Long</a></li>
-							<li><a href="#">Vịnh Cam Ranh</a></li>
-							<li><a href="#">Vịnh Nha Trang</a></li>
-							<li><a href="vinh.html">Khác</a></li>
-						</ul></li>
-
-					<li><a href="LeHoi.html">Sự Kiện - Lễ Hội</a></li>
-					<li><a href="DacSan.html">Đặc Sản</a></li>
-					<li><a href="NghiDuong.html">Nghỉ Dưỡng</a></li>
-					<li><a href="DuLich.html">Du Lịch</a></li>
-				</ul>
-			</div>
-
-		</nav>
 		<div class="row">
 
 			<div class="col-md-8">
@@ -246,7 +256,8 @@
 										<div class="table_hot_item_title">
 											<p>
 											<h4>
-												<a href="CauNgu-DaNang.html">Thư giãn cuối tuần với biển Mũi né</a>
+												<a href="CauNgu-DaNang.html">Thư giãn cuối tuần với biển
+													Mũi né</a>
 											</h4>
 											</p>
 										</div>
@@ -256,7 +267,8 @@
 										<div class="table_hot_item_title">
 											<p>
 											<h4>
-												<a href="CauNgu-DaNang.html">Thư giãn cuối tuần với biển Mũi né</a>
+												<a href="CauNgu-DaNang.html">Thư giãn cuối tuần với biển
+													Mũi né</a>
 											</h4>
 											</p>
 										</div>
@@ -266,7 +278,8 @@
 										<div class="table_hot_item_title">
 											<p>
 											<h4>
-												<a href="CauNgu-DaNang.html">Thư giãn cuối tuần với biển Mũi né</a>
+												<a href="CauNgu-DaNang.html">Thư giãn cuối tuần với biển
+													Mũi né</a>
 											</h4>
 											</p>
 										</div>
@@ -281,7 +294,8 @@
 										<div class="table_hot_item_title">
 											<p>
 											<h4>
-												<a href="CauNgu-DaNang.html">Thư giãn cuối tuần với biển Mũi né</a>
+												<a href="CauNgu-DaNang.html">Thư giãn cuối tuần với biển
+													Mũi né</a>
 											</h4>
 											</p>
 										</div>
@@ -291,7 +305,8 @@
 										<div class="table_hot_item_title">
 											<p>
 											<h4>
-												<a href="CauNgu-DaNang.html">Thư giãn cuối tuần với biển Mũi né</a>
+												<a href="CauNgu-DaNang.html">Thư giãn cuối tuần với biển
+													Mũi né</a>
 											</h4>
 											</p>
 										</div>
@@ -301,7 +316,8 @@
 										<div class="table_hot_item_title">
 											<p>
 											<h4>
-												<a href="CauNgu-DaNang.html">Thư giãn cuối tuần với biển Mũi né</a>
+												<a href="CauNgu-DaNang.html">Thư giãn cuối tuần với biển
+													Mũi né</a>
 											</h4>
 											</p>
 										</div>
