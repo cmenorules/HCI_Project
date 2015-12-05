@@ -2,3 +2,7 @@
 .panel-body{
 	padding:3px;
 }
+textarea {
+    width: 600px;
+    height: 75px;
+}
