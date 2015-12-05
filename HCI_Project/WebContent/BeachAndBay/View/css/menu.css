@@ -5,8 +5,8 @@
 	border-color: rgb(52,51,153);
 	border-left-color: rgb(52,51,153);
 	border-right-color: rgb(52,51,153);
-	border-top: 10px;	
-	
+	border-top: 10px;
+
 }
 
 .menu_mini {
@@ -23,15 +23,18 @@
 }
 
 .menu_border {
-	
-}
 
+}
+.menu__padding
+{
+	padding-left:7%;
+}
 .menu a {
 	color: white;
 }
 
-.menu a:HOVER {	
-	color: white;	
+.menu a:HOVER {
+	color: white;
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
