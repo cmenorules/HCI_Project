@@ -11,13 +11,17 @@
 	color:#fff;
 }
 
-.left_menu li a:hover{
-	color:red;
-	background-color:#eee;
+.left_menu a:hover{
+	background-color:#1B0E7E;
+	color:#fff;
 }
-.left_menu li a:click{
-	color:red;
-	background-color:#eee;
+left_menu a:focus{
+	background-color:#1B0E7E;
+	color:#fff;
+}
+a.list-group-item-info:focus, a.list-group-item-info:hover, button.list-group-item-info:focus, button.list-group-item-info:hover {
+    background-color:#1B0E7E;
+	color:#fff;
 }
 .pcontent{
 	margin-top:20px;
