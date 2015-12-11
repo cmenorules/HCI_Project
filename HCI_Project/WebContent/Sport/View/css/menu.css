@@ -1,0 +1,101 @@
+.menu {
+	background: rgba(30, 150, 0,1);
+	font-weight: bold;
+}
+
+.web_brand
+{
+	color: white;	
+}
+
+.web_brand:HOVER
+{
+	color: white;	
+}
+
+.menu_mini {
+	background: green;
+	font-weight: bold;
+	width: 100%;
+}
+
+
+
+.web_name
+{
+	margin-right: 60px;
+}
+
+.menu_border {
+
+}
+
+.menu a {
+	color: black;
+}
+
+.menu a:HOVER {
+	color: red;
+	background-color: white;
+}
+
+.menu li:HOVER {
+	background: white;
+	background-color: white;
+}
+
+.home_content
+{
+	margin-top: 15px;
+}
+
+.menu_button
+{
+	background-color: black;
+}
+
+.li_large
+{
+	width:700px;
+	height: auto;
+}
+.li_large a
+{
+	color: black;
+}
+
+.navbar {
+border: none;    
+}
+
+.footer_style {
+	margin-top: 10px;
+	height: 100px;
+	width: 100%;
+	background-color: rgb(240, 240, 241);
+	padding: 20px;
+}
+
+.li_div_giai_dau
+{
+
+
+}
+
+.giai_dau
+{
+
+}
+
+.giai_dau:HOVER
+{
+	background-color: rgb(245,245,245);
+	background: rgb(245,245,245);
+	color: red;
+}
+
+.li_div_giai_dau a:HOVER {
+	background-color: rgb(245,245,245);
+	color: red;
+	text-decoration: none;
+}
