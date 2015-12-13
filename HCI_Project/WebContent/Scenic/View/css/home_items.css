@@ -1,0 +1,95 @@
+.item_title {
+	padding-top: 1px;
+	padding-left: 5px;
+	color: rgb(52,51,153);
+	font-weight: bold;
+	border-style: double;
+	border-bottom-color:rgb(52,51,153);
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	background-color: #F7F3FF;
+	
+}
+
+.item_title h3 {
+	font-weight: bold;
+	font-family: "Arial", Times, serif;
+}
+.item_title h4 {
+	font-weight: bold;
+	font-family: "Arial", Times, serif;
+	padding-left: 10px;
+	
+}
+
+.item_content {
+	margin-top: 2px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	
+	
+}
+
+.item_container {
+	margin-top: 15px;	
+	
+}
+
+
+.img_hot {
+	
+	width: 100%;
+	height: 260px;
+	padding: 2px;
+}
+
+.data_scroll {
+	overflow-y: scroll;
+	height: 250px;
+}
+
+.table_hot_item
+{
+	padding: 2px;
+	position: relative;
+	top: 2px;
+	left: 2px;
+	
+	
+}
+
+.table_hot_item_title
+{
+	position: absolute;
+	bottom: 4px;
+	left: 3px;	
+	background: rgba(51, 51, 51,0.78);	
+	width: 98%;
+	height: auto;
+	color: red;
+	font-weight: bold;
+	font-size: medium;
+	padding-left: 5px;
+	
+	
+}
+
+.table_hot_item_title a
+{
+	color: white;
+	font-weight:bold;
+	text-decoration: none;	
+}
+
+.img_title_bg
+{
+	
+	
+	
+}
+.img_title_bg a
+{
+	color: white;
+	text-decoration: none;
+}

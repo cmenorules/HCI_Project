@@ -1,1 +1,550 @@
-Home
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Trang Chủ - Danh Thắng Việt Nam</title>
+
+
+	<link href="../../Resources/bootstrap/css/bootstrap.min.css"
+	rel="stylesheet">
+	<script src="../../Resources/lib/jquery-2.1.4.min.js"></script>
+	<script src="../../Resources/bootstrap/js/bootstrap.js"></script>
+	<link href="css/menu.css" rel="stylesheet">
+	<link href="css/home_items.css" rel="stylesheet">
+	<style>
+		/* Note: Try to remove the following lines to see the effect of CSS positioning */
+		.affix {
+			top: 0;
+			width: 100%;
+			z-index: 40000000000000;
+		}
+
+		@media ( max-width : 768px) {
+			.affix {
+				z-index: 40000000000000;
+			}
+			.box__fix {
+				width: 100%;
+				margin-right: 20px;
+				float: none;
+			}
+			p#title {
+				width: 100%;
+			}
+			.menu__padding {
+				padding-left: 5px;
+			}
+		}
+
+		.affix+.container {
+			padding-top: 82px;
+		}
+
+		.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+			width: 100%;
+			margin: auto;
+			max-height: 300px;
+		}
+	</style>
+</head>
+<body>
+	<img alt="HIHIHIH" width="100%" height="150px" src="img/lg.jpg">
+	<nav class="navbar nav-tabs" data-spy="affix" data-offset-top="150">
+		<div class="navbar-header menu_mini">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+			data-target="#myNavbar">
+			<span class="icon-bar menu_button" style="background-color: black;"></span>
+			<span class="icon-bar menu_button" style="background-color: black;"></span>
+			<span class="icon-bar menu_button" style="background-color: black;"></span>
+		</button>
+	</div>
+	<div class="collapse navbar-collapse menu" id="myNavbar">
+		<ul class="nav navbar-nav menu__padding">
+			<li class="menu_active"><a href="Home.html">Trang chủ</a></li>
+			<li><a href="NoiBat.html">Nổi Bật</a></li>
+
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Biển <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="">Biển Nha Trang</a></li>
+					<li><a href="#">Biển Đà Nẵng</a></li>
+					<li><a href="#">Biển Vũng Tàu</a></li>
+					<li><a href="Bien.html">Khác</a></li>
+				</ul></li>
+
+				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Vịnh <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Vịnh Hạ Long</a></li>
+						<li><a href="#">Vịnh Cam Ranh</a></li>
+						<li><a href="#">Vịnh Nha Trang</a></li>
+						<li><a href="Vinh.html">Khác</a></li>
+					</ul></li>
+
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Hang động <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Hang Sơn Đoòng</a></li>
+							<li><a href="#">Động Phong Nha</a></li>
+							<li><a href="#">Tam Cốc Bích Động</a></li>
+							<li><a href="Vinh.html">Khác</a></li>
+						</ul></li>
+						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Thác <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Thác Cam Ly</a></li>
+								<li><a href="#">Thác Preen</a></li>
+								<li><a href="#">Thác Tác Tình</a></li>
+								<li><a href="Vinh.html">Khác</a></li>
+							</ul></li>
+							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Núi - Sông <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Sông Hương - Núi Ngự</a></li>
+									<li><a href="#">Núi Ấn - Sông Trà</a></li>
+									<li><a href="#">Núi Tản - Sông Đà</a></li>
+									<li><a href="Vinh.html">Khác</a></li>
+								</ul></li>
+								<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Đảo <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Đảo Phú Quốc</a></li>
+										<li><a href="#">Đảo Lý Sơn</a></li>
+										<li><a href="#">Côn Đảo</a></li>
+										<li><a href="Vinh.html">Khác</a></li>
+									</ul></li>
+									<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Công trình kiến trúc <span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li><a href="#">Chùa Bái Đính</a></li>
+											<li><a href="#">Chùa Hương</a></li>
+											<li><a href="#">Chùa Thiên Mụ</a></li>
+											<li><a href="Vinh.html">Khác</a></li>
+										</ul></li>
+										<li><a href="DuLich.html">Khác</a></li></ul>
+									</div>
+
+								</nav>
+
+								<div class="container">
+
+									<div class="row">
+
+										<div class="col-md-8">
+											<div class="item_container">
+												<div class="item_title">
+													<h4>ĐI ĐÂU TUẦN NÀY</h4>
+												</div>
+												<div class="item_content">
+													<table style="width: 100%" border="0">
+														<tr>
+															<td width="50%">
+																<div class="table_hot_item">
+																	<img alt="hihi" class="img_hot" src="img/h2.jpg">
+																	<div class="table_hot_item_title">
+																		<p>
+																			<h4>
+																				<a href="beach.html">Cùng ngắm vẻ đẹp tự nhiên của đảo A
+																					Lý - Hạ Long</a>
+																				</h4>
+																			</p>
+																		</div>
+																	</div>
+
+																</td>
+																<td width="50%">
+																	<div class="table_hot_item">
+																		<img alt="hihi" class="img_hot" src="img/h1.jpeg">
+																		<div class="table_hot_item_title">
+																			<p>
+																				<h4>
+																					<a href="beach.html">Cùng nhìn ngắm vẻ đẹp lộng lẫy của
+																						biển Đà Nẵng</a>
+																					</h4>
+																				</p>
+																			</div>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<div class="table_hot_item">
+																			<img alt="hihi" class="img_hot" src="img/h3.jpg">
+																			<div class="table_hot_item_title">
+																				<p>
+																					<h4>
+																						<a href="beach.html">Cùng ngắm hoàng hôn ở biển Mũi né</a>
+																					</h4>
+																				</p>
+																			</div>
+																		</div>
+
+																	</td>
+																	<td>
+																		<div class="table_hot_item">
+																			<img alt="hihi" class="img_hot" src="img/h4.jpg">
+																			<div class="table_hot_item_title">
+																				<p>
+																					<h4>
+																						<a href="beach.html">Hút hồn với vẻ đẹp dịu dàng của
+																							biển Đà Nẵng</a>
+																						</h4>
+																					</p>
+																				</div>
+																			</div>
+																		</td>
+																	</tr>
+																</table>
+															</div>
+														</div>
+														<div class="item_container">
+															<div class="item_title">
+																<h4>NỔI BẬT TRONG THÁNG</h4>
+															</div>
+															<div class="item_content">
+
+																<div id="myCarousel" class="carousel slide" data-ride="carousel">
+																	<!-- Indicators -->
+																	<ol class="carousel-indicators">
+																		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+																		<li data-target="#myCarousel" data-slide-to="1"></li>
+																		<li data-target="#myCarousel" data-slide-to="2"></li>
+																		<li data-target="#myCarousel" data-slide-to="3"></li>
+																	</ol>
+
+																	<!-- Wrapper for slides -->
+																	<div class="carousel-inner" role="listbox">
+																		<div class="item active">
+																			<img src="img/l1.jpg" alt="Chania" width="450px" height="300px">
+																			<div class="carousel-caption">
+																				<div class="img_title_bg">
+																					<h3>
+																						<a href="#">Đảo Hòn Lý - Vịnh hạ long</a>
+																					</h3>
+																					<p>Đây là thiên đường của các hòn đảo.</p>
+																				</div>
+
+																			</div>
+																		</div>
+
+																		<div class="item">
+																			<img src="img/l2.jpg" alt="Chania" width="450px" height="300px">
+																			<div class="carousel-caption">
+																				<div class="img_title_bg">
+																					<h3>
+																						<a href="#">Đảo Hòn Lý - Vịnh hạ long</a>
+																					</h3>
+																					<p>Đây là thiên đường của các hòn đảo.</p>
+																				</div>
+																			</div>
+																		</div>
+
+																		<div class="item">
+																			<img src="img/l3.jpg" alt="Flower" width="450px" height="300px">
+																			<div class="carousel-caption">
+																				<div class="img_title_bg">
+																					<h3>
+																						<a href="#">Đảo Hòn Lý - Vịnh hạ long</a>
+																					</h3>
+																					<p>Đây là thiên đường của các hòn đảo.</p>
+																				</div>
+																			</div>
+																		</div>
+
+																		<div class="item">
+																			<img src="img/l4.jpg" alt="Flower" width="450px" height="300px">
+																			<div class="carousel-caption">
+																				<div class="img_title_bg">
+																					<h3>
+																						<a href="#">Đảo Hòn Lý - Vịnh hạ long</a>
+																					</h3>
+																					<p>Đây là thiên đường của các hòn đảo.</p>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+
+																	<!-- Left and right controls -->
+																	<a class="left carousel-control" href="#myCarousel" role="button"
+																	data-slide="prev"> <span
+																	class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+																	<span class="sr-only">Previous</span>
+																</a> <a class="right carousel-control" href="#myCarousel"
+																role="button" data-slide="next"> <span
+																class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+																<span class="sr-only">Next</span>
+															</a>
+														</div>
+													</div>
+												</div>
+
+												<div class="item_container">
+													<div class="item_title">
+														<h4>LỄ HỘI - SỰ KIỆN</h4>
+													</div>
+													<div class="item_content">
+
+														<table border="0" width="100%">
+															<tr>
+
+																<td width="30%"><div class="table_hot_item">
+																	<img alt="hihi" class="img_hot" src="img/d1.jpg">
+																	<div class="table_hot_item_title">
+																		<p>
+																			<h4>
+																				<a href="CauNgu-DaNang.html">Thư giãn cuối tuần với biển
+																					Mũi né</a>
+																				</h4>
+																			</p>
+																		</div>
+																	</div></td>
+																	<td width="30%"><div class="table_hot_item">
+																		<img alt="hihi" class="img_hot" src="img/d2.jpg">
+																		<div class="table_hot_item_title">
+																			<p>
+																				<h4>
+																					<a href="CauNgu-DaNang.html">Thư giãn cuối tuần với biển
+																						Mũi né</a>
+																					</h4>
+																				</p>
+																			</div>
+																		</div></td>
+																		<td width="30%"><div class="table_hot_item">
+																			<img alt="hihi" class="img_hot" src="img/d3.jpg">
+																			<div class="table_hot_item_title">
+																				<p>
+																					<h4>
+																						<a href="CauNgu-DaNang.html">Thư giãn cuối tuần với biển
+																							Mũi né</a>
+																						</h4>
+																					</p>
+																				</div>
+																			</div></td>
+																		</tr>
+
+
+																		<tr>
+
+																			<td width="30%"><div class="table_hot_item">
+																				<img alt="hihi" class="img_hot" src="img/d4.jpg">
+																				<div class="table_hot_item_title">
+																					<p>
+																						<h4>
+																							<a href="CauNgu-DaNang.html">Thư giãn cuối tuần với biển
+																								Mũi né</a>
+																							</h4>
+																						</p>
+																					</div>
+																				</div></td>
+																				<td width="30%"><div class="table_hot_item">
+																					<img alt="hihi" class="img_hot" src="img/d5.jpg">
+																					<div class="table_hot_item_title">
+																						<p>
+																							<h4>
+																								<a href="CauNgu-DaNang.html">Thư giãn cuối tuần với biển
+																									Mũi né</a>
+																								</h4>
+																							</p>
+																						</div>
+																					</div></td>
+																					<td width="30%"><div class="table_hot_item">
+																						<img alt="hihi" class="img_hot" src="img/d6.jpg">
+																						<div class="table_hot_item_title">
+																							<p>
+																								<h4>
+																									<a href="CauNgu-DaNang.html">Thư giãn cuối tuần với biển
+																										Mũi né</a>
+																									</h4>
+																								</p>
+																							</div>
+																						</div></td>
+																					</tr>
+																				</table>
+
+																			</div>
+																		</div>
+
+
+																		<div class="item_container">
+																			<div class="item_title">
+																				<h4>ẨM THỰC</h4>
+																			</div>
+																			<div class="item_content">
+
+																				<table border="0" width="100%">
+																					<tr>
+
+																						<td width="30%"><div class="table_hot_item">
+																							<img alt="hihi" class="img_hot" src="img/f1.jpg">
+																							<div class="table_hot_item_title">
+																								<p>
+																									<h4>
+																										<a href="DacSan-NaiKho.html">Thư giãn cuối tuần với biển
+																											Mũi né</a>
+																										</h4>
+																									</p>
+																								</div>
+																							</div></td>
+																							<td width="30%"><div class="table_hot_item">
+																								<img alt="hihi" class="img_hot" src="img/f6.jpg">
+																								<div class="table_hot_item_title">
+																									<p>
+																										<h4>
+																											<a href="DacSan-NaiKho.html">Thư giãn cuối tuần với biển
+																												Mũi né</a>
+																											</h4>
+																										</p>
+																									</div>
+																								</div></td>
+																								<td width="30%"><div class="table_hot_item">
+																									<img alt="hihi" class="img_hot" src="img/f2.jpg">
+																									<div class="table_hot_item_title">
+																										<p>
+																											<h4>
+																												<a href="DacSan-NaiKho.html">Thư giãn cuối tuần với biển
+																													Mũi né</a>
+																												</h4>
+																											</p>
+																										</div>
+																									</div></td>
+																								</tr>
+
+
+																								<tr>
+
+																									<td width="30%"><div class="table_hot_item">
+																										<img alt="hihi" class="img_hot" src="img/f3.jpg">
+																										<div class="table_hot_item_title">
+																											<p>
+																												<h4>
+																													<a href="DacSan-NaiKho.html">Thư giãn cuối tuần với biển
+																														Mũi né</a>
+																													</h4>
+																												</p>
+																											</div>
+																										</div></td>
+																										<td width="30%"><div class="table_hot_item">
+																											<img alt="hihi" class="img_hot" src="img/f4.jpg">
+																											<div class="table_hot_item_title">
+																												<p>
+																													<h4>
+																														<a href="DacSan-NaiKho.html">Thư giãn cuối tuần với biển
+																															Mũi né</a>
+																														</h4>
+																													</p>
+																												</div>
+																											</div></td>
+																											<td width="30%"><div class="table_hot_item">
+																												<img alt="hihi" class="img_hot" src="img/f5.jpg">
+																												<div class="table_hot_item_title">
+																													<p>
+																														<h4>
+																															<a href="DacSan-NaiKho.html">Thư giãn cuối tuần với biển
+																																Mũi né</a>
+																															</h4>
+																														</p>
+																													</div>
+																												</div></td>
+																											</tr>
+																										</table>
+																									</div>
+																								</div>
+																							</div>
+																							<div class="col-md-4">
+
+																								<div class="item_container">
+																									<div class="item_title">
+																										<h4>LỄ HỘI SẮP DIỄN RA</h4>
+																									</div>
+																									<div class="item_content">
+																										<table style="width: 100%" border="0">
+																											<tr>
+																												<td width="50%">
+																													<div class="table_hot_item">
+																														<img alt="hihi" class="img_hot" src="img/c1.jpg">
+																														<div class="table_hot_item_title">
+																															<p>
+																																<h4>
+																																	<a href="CauNgu-DaNang.html">Lễ hội phá đảo - sơn tây Hạ
+																																		Long</a>
+																																	</h4>
+																																</p>
+																															</div>
+																														</div>
+
+																													</td>
+																												</tr>
+																												<tr>
+																													<td>
+																														<div class="table_hot_item">
+																															<img alt="hihi" class="img_hot" src="img/c2.jpg">
+																															<div class="table_hot_item_title">
+																																<p>
+																																	<h4>
+																																		<a href="CauNgu-DaNang.html">Lễ hội ngư ông cẩm sài - Đà
+																																			Nẵng</a>
+																																		</h4>
+																																	</p>
+																																</div>
+																															</div>
+
+																														</td>
+
+																													</tr>
+																												</table>
+																											</div>
+																										</div>
+
+																										<div class="item_container">
+																											<div class="item_title">
+																												<h4>SỰ KIỆN NỔI BẬT</h4>
+																											</div>
+																											<div class="item_content">
+																												<table style="width: 100%" border="0">
+																													<tr>
+																														<td width="50%">
+																															<div class="table_hot_item">
+																																<img alt="hihi" class="img_hot" src="img/s1.jpg">
+																																<div class="table_hot_item_title">
+																																	<p>
+																																		<h4>
+																																			<a href="CauNgu-DaNang.html">Hội trại nghệ thuật - Vũng
+																																				Tàu</a>
+																																			</h4>
+																																		</p>
+																																	</div>
+																																</div>
+
+																															</td>
+																														</tr>
+																														<tr>
+																															<td>
+																																<div class="table_hot_item">
+																																	<img alt="hihi" class="img_hot" src="img/s2.jpg">
+																																	<div class="table_hot_item_title">
+																																		<p>
+																																			<h4>
+																																				<a href="CauNgu-DaNang.html">Thả 10000 con diều - Đà
+																																					Nẵng</a>
+																																				</h4>
+																																			</p>
+																																		</div>
+																																	</div>
+
+																																</td>
+
+																															</tr>
+																														</table>
+																													</div>
+																												</div>
+
+																											</div>
+																											<!-- end body -->
+
+																										</div>
+
+																									</div>
+																									<footer class="footer_style">
+																										<center>
+																											<p>
+																												Bản quyền thuộc về công ty TNHH giải trí truyền thông đa phương tiện
+																												Viet media <br> Liên hệ: 09009090909909
+																											</p>
+																										</center>
+
+																									</footer>
+																								</body>
+																								</html>

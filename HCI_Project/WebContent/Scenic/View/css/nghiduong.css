@@ -1,0 +1,128 @@
+p#title
+{
+	font-size: 25px;
+	color: #0047AB;
+	font-weight: bold;
+
+	border-bottom-style: double;
+	border-color: blue;
+	width: 95%;
+}
+
+body{
+	background-color: #F7F3FF
+}
+
+.panel-heading span {
+    margin-top: -20px;
+    font-size: 15px;
+}
+.row {
+    margin-top: 40px;
+    padding: 0 10px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+.radius
+{
+	display: inline;
+}
+.badge
+{
+	color: #000000;
+	background-color: #D9D9D9;
+}
+.float__right
+{
+	float: right;
+}
+
+.table {
+    border-bottom:0px !important;
+
+}
+.table th, .table td {
+    border: 0px !important;
+
+}
+.table td
+{
+  font-weight: bold;
+}
+.fixed-table-container {
+    border:0px !important;
+}
+
+.padding__bottom
+{
+	padding-bottom: 10px;
+}
+.img-responsive
+{
+	width: 100%;
+	max-height: 175px;
+	min-height: 175px;
+	margin-bottom: -8px;
+}
+.scale
+{
+	width: 15px;
+
+}
+a:hover
+{
+	color: black;
+	text-decoration: none;
+}
+a:hover .panel
+{
+	border:solid 1px;
+}
+a
+{
+	color: black;
+}
+.text-overlay
+{
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	color: #FFFFFF;
+	font-weight: normal;
+	top:5px;
+	padding-left: 3px;
+	padding-right: 3px;
+
+}
+.text-overlay1
+{
+	position: absolute;
+	background-color: rgba(255,0,0,0.7);
+	color: #FFFFFF;
+	font-weight: normal;
+	top:5px;
+	right: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+
+}
+.position__item
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+
+
+}
+.box__fix
+{
+	width: 30%;
+	margin-right:20px;
+	float: left;
+	font-weight: bold;
+}
+.position__item
+{
+	padding: 3px 3px 0px 3px;
+}

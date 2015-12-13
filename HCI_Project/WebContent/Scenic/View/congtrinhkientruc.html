@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Công trình kiến trúc</title>
+<link href="../../Resources/bootstrap/css/bootstrap.min.css"
+	rel="stylesheet">
+<script src="../../Resources/lib/jquery-2.1.4.min.js"></script>
+<script src="../../Resources/bootstrap/js/bootstrap.js"></script>
+<script src="js/beach.js"></script>
+<link href="css/menu.css" rel="stylesheet">
+<link href="css/home_items.css" rel="stylesheet">
+<link href="css/beach.css" rel="stylesheet">
+<style>
+/* Note: Try to remove the following lines to see the effect of CSS positioning */
+.affix {
+	top: 0;
+	width: 100%;
+	z-index: 40000000000000;
+}
+
+@media ( max-width : 768px) {
+	.affix {
+		z-index: 40000000000000;
+	}
+	.box__fix {
+		width: 100%;
+		margin-right: 20px;
+		float: none;
+	}
+	p#title {
+		width: 100%;
+	}
+	.menu__padding {
+		padding-left: 5px;
+	}
+}
+
+.affix+.container {
+	padding-top: 82px;
+}
+</style>
+</head>
+<body>
+
+	<img alt="HIHIHIH" width="100%" height="150px" src="img/lg.jpg">
+	<nav class="navbar nav-tabs" data-spy="affix" data-offset-top="150">
+		<div class="navbar-header menu_mini">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target="#myNavbar">
+				<span class="icon-bar menu_button" style="background-color: black;"></span>
+				<span class="icon-bar menu_button" style="background-color: black;"></span>
+				<span class="icon-bar menu_button" style="background-color: black;"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse menu" id="myNavbar">
+		<ul class="nav navbar-nav menu__padding">
+			<li><a href="Home.html">Trang chủ</a></li>
+			<li><a href="NoiBat.html">Nổi Bật</a></li>
+
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Biển <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="">Biển Nha Trang</a></li>
+					<li><a href="#">Biển Đà Nẵng</a></li>
+					<li><a href="#">Biển Vũng Tàu</a></li>
+					<li><a href="Bien.html">Khác</a></li>
+				</ul></li>
+
+				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Vịnh <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Vịnh Hạ Long</a></li>
+						<li><a href="#">Vịnh Cam Ranh</a></li>
+						<li><a href="#">Vịnh Nha Trang</a></li>
+						<li><a href="Vinh.html">Khác</a></li>
+					</ul></li>
+
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Hang động <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Hang Sơn Đoòng</a></li>
+							<li><a href="#">Động Phong Nha</a></li>
+							<li><a href="#">Tam Cốc Bích Động</a></li>
+							<li><a href="Vinh.html">Khác</a></li>
+						</ul></li>
+						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Thác <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Thác Cam Ly</a></li>
+								<li><a href="#">Thác Preen</a></li>
+								<li><a href="#">Thác Tác Tình</a></li>
+								<li><a href="Vinh.html">Khác</a></li>
+							</ul></li>
+							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Núi - Sông <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Sông Hương - Núi Ngự</a></li>
+									<li><a href="#">Núi Ấn - Sông Trà</a></li>
+									<li><a href="#">Núi Tản - Sông Đà</a></li>
+									<li><a href="Vinh.html">Khác</a></li>
+								</ul></li>
+								<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Đảo <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Đảo Phú Quốc</a></li>
+										<li><a href="#">Đảo Lý Sơn</a></li>
+										<li><a href="#">Côn Đảo</a></li>
+										<li><a href="Vinh.html">Khác</a></li>
+									</ul></li>
+									<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Công trình kiến trúc <span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li><a href="#">Chùa Bái Đính</a></li>
+											<li><a href="#">Chùa Hương</a></li>
+											<li><a href="#">Chùa Thiên Mụ</a></li>
+											<li><a href="Vinh.html">Khác</a></li>
+										</ul></li>
+										<li><a href="DuLich.html">Khác</a></li></ul>
+									</div>
+
+	</nav>
+	<div class="container">
+	<!-- start body -->
+	<div class="row"><center>
+				<h2> Biển Vũng Tàu </h2>
+			</center>
+			<center>
+				<div id="myCarousel" class="carousel slide myCarousel" data-ride="carousel" data-interval="1500" data-pause="hover">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+						<li data-target="#myCarousel" data-slide-to="3"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active"> <img src="img/nt1.jpg" alt="không tải được hình" >
+							<div class="carousel-caption">
+								<h3>Bãi trước biển Vũng Tàu</h3>
+							</div>
+						</div>
+						<div class="item"> <img src="img/nt4.jpg" alt="không tải được hình">
+							<div class="carousel-caption">
+								<h3>Bãi trước biển Vũng Tàu</h3>
+							</div>
+						</div>
+						<div class="item"> <img src="img/nt3.jpg" alt="không tải được hình">
+							<div class="carousel-caption">
+								<h3>Lễ hội thả diều</h3>
+							</div>
+						</div>
+						<div class="item"> <img src="img/nt2.jpg" alt="không tải được hình">
+							<div class="carousel-caption">
+								<h3>Bãi trước biển Vũng Tàu</h3>
+							</div>
+						</div>
+					</div>
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+			</center>
+		<div class="col-md-9">
+
+			<div class="pcontent">
+				<h3 style="color:#DF0003"> Vài nét về Vũng Tàu </h3>
+				<p> Vũng Tàu nằm trên bán đảo cùng tên, là tỉnh lỵ của tỉnh Bà Rịa -Vũng Tàu. Nằm nhô hẳn ra khỏi đất liền như một dải đất có chiều dài khoảng 14km và chiều rộng khoảng 6km.
+					Khách sạn giảm giá Vũng Tàu
+					Từ nơi đây, người ta có thể nhìn biển Đông cả khi trời mọc lẫn lúc hoàng hôn.  Là một thành phố ven biển, có bờ biển trải dài 20km Vũng Tàu trở thành nơi du lịch nổi tiếng với du khách trong và ngoài nước.Bên cạnh đó Vũng Tàu còn là miền đất có truyền thống văn hóa lịch sử lâu đời với những di tích mang đậm dấu ấn của những thời kỳ lịch sử.Hiện toàn tỉnh có 29 khu di tích được xếp hạng cấp quốc gia.
+
+					Vũng Tàu là một thành phố ven biển nên nơi đây có những bãi biển lý tưởng để du khách nghỉ mát và tắm biển. Bãi Sau là một trong nhứng bãi biển đẹp của Việt Nam còn có tên gọi là Thùy Vân(Thùy Dương). Nằm phía Nam Vũng Tàu kéo dài từ chân Núi Nhỏ chạy dài gần 10km đến Cửa Lấp, bãi cát dài phẳng, nước biển sạch, trong xanh, sóng lớn. Mặt trước là biển Đông, phía sau là những đồi cát trắng và rừng phi lao ngút ngàn. Du khách sẽ có được những cảm giác thoải mái khi đắm mình trong dòng nước mát rượi của bãi Sau, tận hưởng không khí trong lành, thoáng mát. Ở bãi Sau còn có khu rừng dương một cánh rừng rộng lớn với những cây phi lao cổ thụ phía dưới rừng thấp thoáng những những nhà nghỉ bằng gỗ theo kiểu nhà rông Tây Nguyên với đầy đủ tiện nghi hiện đại mà dân dã.
+
+					Gần đó là bãi Trước còn gọi là bãi Tầm Dương, nước biển không sạch bằng bãi Sau vì thế mà hầu như du khách thường tập trung ở bãi Sau để tắm. Nhưng ở bãi Trước này du khách sẽ tìm được cái cảm giác khó quên và lãng mạng đó là được ngắn hoàng hôn vào lúc xế chiều và bình minh vào buổi sớm mai. Dọc theo bờ biển là những hàng dừa (chính vì vậy mà trước đây nơi này còn có tên gọi là vịnh Hàng Dừa) bên dưới là khu công viên đầy hoa dành cho du khách bộ hành bên cạnh tiếng sóng vỗ dào dạt. Đêm đến, dọc bên đường Trần Phú, Quang Trung rực sáng với hệ thống đèn cao áp, những quán café tỏa sáng muôn ánh đèn đủ màu sắc.
+
+					Một bãi Sau với nét đẹp dịu dàng và rực rỡ, một bãi Trước lộng lẫy, và Vũng Tàu còn có bãi Dâu yên bình. Bãi này nhiều ghềnh đá thơ mộng và kín gió, hai đầu bãi có nhiều mỏm đá lớn nhô ra biển, sau lưng bãi là địa hình lòng chảo được cây cối um tùm bao bọc tựa triền núi lớn, chân núi dốc đứng và ăn sát ra biển. Đến bãi Dâu không khí ồn ào, náo nhiệt tách rời hẳn và mang lại cho du khách cái cảm giác thanh bình.
+
+					Núi lớn là một trong hai ngọn núi đẹp, tọa lạc về phía Bắc của thành phố Vũng Tàu, nằm sát biển còn có tên gọi là Tương Kỳ.Dọc đường đi trên núi có nhiều thắng cảnh đẹp như Bạch Dinh, Thích Ca Phật Đài, tượng Đức Mẹ, tượng Phật Bà Quan Âm,…Du khách có thể leo lên đến tận đỉnh Núi Lớn để tận hưởng không khí trong lành, mát lạnh, và ngắm toàn cảnh thành phố Vũng Tàu theo con đường uốn lượn quanh thành phố phía nam. Ngoài ra, còn có mũi Đá trước tòa Bạch Dinh, mũi đá Cao Trang ở đầu đường vòng Núi Lớn buổi chiều du khách đến đây dạo chơi thì còn gì bằng!
+
+					Trái ngược với Núi Lớn, Núi Nhỏ tọa lạc về phía Nam của thành phố và có tên gọi khác là Tao Phùng. Phía dưới chân núi là con đường ven biển với nhiều khách sạn, nhà hàng, quán café,…Lên đỉnh Núi Nhỏ, du khách có dịp chiêm ngưỡng tượng Đức Chúa giang tay cao 32m là tượng Chúa cao nhất thế giới. Thú vị hơn nữa, khi leo lên đỉnh núi, du khách còn được thưởng ngoạn một công trình kiến trúc đặc sắc đó là ngọn Hải Đăng. Bên trong có cầu thang xoắn ốc lên gần tới đỉnh và có lối dẫn ra ban công bên ngoài quan sát toàn cảnh Vũng Tàu.
+
+					Cuối Núi Nhỏ về phía Nam là ngọn núi Nghinh Phong ôm lấy bãi Vọng Nguyệt phía Đông và bãi Dứa hướng Tây, gió thổi quanh năm. Tiếp tục đi một khoảng không xa lắm từ Nghinh Phong, du khách bắt gặp Hòn Bà- một bãi đá lởm chởm làm cầu. Khi nước ròng ha thấp du khách có thể đi bộ ra đây chơi. Trên đường vòng Núi Nhỏ chạy từ bãi Trước qua bãi Ô Quắn, bãi Dứa, đến Nghinh Phong và ra bãi Sau dài 6km. Hai bên đường có nhiều điểm hấp dẫn thu hút nhiều du khách như Niết Bàn Tịnh Xá, tượng Chúa Kitô,…
+
+					Ngoài hai ngọn Núi Lớn và Núi Nhỏ, ở Vũng Tàu còn có ngọn núi nữa cũng thu hút nhiều du khách đến đây đó là Núi Dinh nằm ngay trên địa bàn huyện Tân Thành. Nơi đây là một quần thể cây xanh, am,chùa, miếu, cốc và núi non. Ẩn hiện theo sườn núi là những ngôi chùa Hang, chùa Đại Tùng Lâm, chùa Tây Phương,..mang nhiều giá trị về mặt tôn giáo. Và bắt nguồn từ ngọn núi này là con sông Dinh lớn nhất Vũng Tàu, chảy qua Phước Lễ xuôi theo hướng Tây Bắc dài 11km, chỗ rộng nhất 1000km, chỗ hẹp cũng 300m, nơi sâu nhất là 25m.
+					Nằm song song với bãi biển chạy từ chân Núi Nhỏ đến Cửa Lấp dài khoảng 10km là dãy đồi cát cao từ 4m đến 12m. Cũng nhờ vào đòi cát này mà những luồng gió lớn từ biển Đông thổi vào không gây nhiều thiệt hại cho nơi đây.
+
+					Khu bảo tồn thiên nhi.5ên Bình Châu-Phước Bửu là khu rừng nguyên sinh ven biển duy nhất còn nguyên vẹn của Việt Nam tọa lạc tại Xuyên Mộc-Bà Rịa-Vũng Tàu. Địa hình nơi đây tương đối bằng phẳng cho nên cũng rất thuận lợi với khách tham quan. Ở phía tây có một ngọn núi cao từ 100 đến 150m và những ngọn đồi thoai thoải xen lẫn với những bàu nước ngọt tư nhiên. Vào đây, du khách còn khám phá được thảm thực vật đa dạng, thế giới động vật phong phú nhiều loài động vật quý hiếm. Giữa rừng xanh ngút ngàn là một bàu nước nóng với hơn 70 điểm phun nước ngọt tự nhiên và nhiều hồ nước ngọt hoang sơ như hồ Tràm, hồ Cốc, hồ Linh, bàu Nhám,…
+
+					Khi đến đây, du khách cũng sẽ được tham gia lễ hội Nghinh Cô diễn ra hằng năm vào ngày 12 tháng 2 âm lịch tại thị trấn Long Hải. Lễ cầu an diễn ra trong chính điện vào đêm hôm trước và lễ rước vào sáng 12 trên hàng chục chiếc ghe thuyền trang hoàng lộng lẫy để cầu trời yên bể lặn, tôm cá đầy khoang. Trong lễ hội có nhiều đội múa lân, dàn nhạc đến góp vui và có rất đông người tham gia.
+
+					Không những có Lễ hội Nghinh Cô mà còn có lễ hội Nghinh Ông diễn ra tại Lăng Cá Ông trên đường Hoàng Hoa Thám vào ngày 16-18 âm lịch. Sau nghi lễ du khách sẽ được thưởng thức hát bội, hát bá chạo, xem biểu diễn võ thuật rất vui. </p>
+			</div>
+
+		</div>
+		<div class="col-md-3">
+			<div class="left_menu ">
+				<div class="list-group">
+					<a onClick="myCollapse(1)" id="a1" class="list-group-item list-group-item-info" href="#/">Điểm đến <span class="badge">2</span><span class="caret"></span></a>
+					<div class="list-group mhidden"  id = "custom_content1">
+					<a class="list-group-item list-group-item-info" href="#/">Bãi trước </a>
+					<a class="list-group-item list-group-item-info" href="#/">Bãi sau </a>
+					</div>
+					<a onClick="myCollapse(2)" id="a2" class="list-group-item list-group-item-info" href="#/">Sự kiện - Lễ hội <span class="badge">6</span><span class="caret"></span></a>
+					<div class="list-group mhidden"  id = "custom_content2">
+					<a class="list-group-item list-group-item-info" href="#/">Lễ hội rước rồng </a>
+					<a class="list-group-item list-group-item-info" href="#/">Lễ hội thả diều </a>
+					<a onClick="readAndWriteTextFileToElement('lhno.txt')" class="list-group-item list-group-item-info" href="#/">Lễ hội Nghinh Ông </a>
+					<a class="list-group-item list-group-item-info" href="#/">Lễ hội Nam Hải </a>
+					<a class="list-group-item list-group-item-info" href="#/">Lễ hội Dinh Cô </a>
+					<a class="list-group-item list-group-item-info" href="#/">Lễ hội Trùng Cửu </a>
+					</div>
+					<a onClick="myCollapse(3)" id="a3" class="list-group-item list-group-item-info" href="#/">Đặc sản <span class="badge">5</span><span class="caret"></span></a>
+					<div class="list-group mhidden"  id = "custom_content3">
+					<a onClick="readAndWriteTextFileToElement('bx.txt')" class="list-group-item list-group-item-info" href="#/">bánh xèo Long Hải </a>
+					<a onClick="readAndWriteTextFileToElement('bc.txt')" class="list-group-item list-group-item-info" href="#/">Bánh Canh Long Hương </a>
+					<a class="list-group-item list-group-item-info" href="#/">Bánh Bèo Tuyết Mai </a>
+					<a onClick="readAndWriteTextFileToElement('cbc.txt')" class="list-group-item list-group-item-info" href="#/">Cháo bồ câu Vũng Tàu </a>
+					<a class="list-group-item list-group-item-info" href="#/">Ăn hào ở đảo Long Sơn </a>
+					</div>
+					<a onClick="myCollapse(4)" id="a4" class="list-group-item list-group-item-info" href="#/">Nghỉ dưỡng <span class="badge">0</span></a>
+					<a onClick="myCollapse(5)" id="a5" class="list-group-item list-group-item-info" href="#/">Du lịch <span class="badge">3</span><span class="caret"></span></a>
+					<div class="list-group mhidden"  id = "custom_content5">
+					<a class="list-group-item list-group-item-info" href="#/">Tour Long Hải – Vũng Tàu: 2 ngày 1 đêm </a>
+					<a class="list-group-item list-group-item-info" href="#/">Tour Vũng Tàu 2 ngày 1 đêm </a>
+					<a class="list-group-item list-group-item-info" href="#/">Tour Vũng Tàu 3 Ngày 2 Đêm </a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- end body -->
+	<footer class="footer_style">
+		<center>
+			<p> Bản quyền thuộc về công ty TNHH giải trí truyền thông đa phương
+				tiện Viet media <br>
+				Liên hệ: 09009090909909 </p>
+		</center>
+	</footer>
+</div></div>
+<script>
+	function myCollapse(id) {
+		$("#custom_content"+id).slideToggle("slow");
+	}
+</script>
+</body>
+</html>
